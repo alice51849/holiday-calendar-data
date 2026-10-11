@@ -1,0 +1,38 @@
+{
+"schema":"offday.holidays/v1",
+"country":"EG",
+"region":null,
+"year":2026,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[5,6],
+"coverage":{"counts":{"rule_derived":9,"uncertain":10,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:caa51fc3e341fa19c351dceeaebfa75625d6c44a3b67ea34482c5b25a6681c08",
+"dates":[
+{"date":"2026-01-07","kind":"public","key":"coptic_christmas_day","names":{"ar":"عيد الميلاد المجيد","en":"Coptic Christmas Day","fr":"Fête de Noël"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-01-29","kind":"observed","key":"january_25th_revolution_and_national_police_day","names":{"ar":"ثورة ٢٥ يناير وعيد الشرطة (يوم تعويضي)","en":"January 25th Revolution and National Police Day (observed)","fr":"Révolution de 25 Janvier et la fête de la Police (observé)"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2026-03-19","kind":"optional","key":"eid_al_fitr","names":{"ar":"عيد الفطر المبارك","en":"Eid al-Fitr"},"source":"python-holidays","confidence":"rule_derived","tags":["government"]},
+{"date":"2026-03-20","kind":"public","key":"eid_al_fitr","names":{"ar":"عيد الفطر المبارك","en":"Eid al-Fitr","fr":"Aïd-Al-Fitr"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-03-21","kind":"public","key":"eid_al_fitr","names":{"ar":"عيد الفطر المبارك","en":"Eid al-Fitr","fr":"Aïd-Al-Fitr"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-03-22","kind":"optional","key":"eid_al_fitr","names":{"ar":"عيد الفطر المبارك","en":"Eid al-Fitr"},"source":"python-holidays","confidence":"rule_derived","tags":["government"]},
+{"date":"2026-04-13","kind":"public","key":"spring_festival","names":{"ar":"عيد شم النسيم","en":"Spring Festival","fr":"Cham Al-Nessim"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-04-25","kind":"public","key":"sinai_liberation_day","names":{"ar":"عيد تحرير سيناء","en":"Sinai Liberation Day","fr":"Fête de la Libération du Sinaï"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-05-01","kind":"public","key":"labor_day","names":{"ar":"عيد العمال","en":"Labor Day","fr":"Fête du Travail"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-05-26","kind":"public","key":"day_of_arafah","names":{"ar":"وقفة عيد الأضحى المبارك","en":"Day of Arafah","fr":"Le jour d'Arafat"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2026-05-27","kind":"public","key":"eid_al_adha","names":{"ar":"عيد الأضحى المبارك","en":"Eid al-Adha","fr":"Aïd Al-Adha"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2026-05-28","kind":"public","key":"eid_al_adha","names":{"ar":"عيد الأضحى المبارك","en":"Eid al-Adha","fr":"Aïd Al-Adha"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2026-05-29","kind":"public","key":"eid_al_adha","names":{"ar":"عيد الأضحى المبارك","en":"Eid al-Adha","fr":"Aïd Al-Adha"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2026-05-30","kind":"optional","key":"eid_al_adha","names":{"ar":"عيد الأضحى المبارك","en":"Eid al-Adha"},"source":"python-holidays","confidence":"uncertain","tags":["government"]},
+{"date":"2026-06-18","kind":"observed","key":"islamic_new_year","names":{"ar":"رأس السنة الهجرية (يوم تعويضي)","en":"Islamic New Year (observed)","fr":"Fête de l'Hégire (observé)"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2026-07-02","kind":"observed","key":"june_30_revolution_day","names":{"ar":"عيد ثورة ٣٠ يونيو (يوم تعويضي)","en":"June 30 Revolution Day (observed)","fr":"Fête de la Révolution du 30 Juin (observé)"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2026-07-23","kind":"public","key":"july_23_revolution_day","names":{"ar":"عيد ثورة ٢٣ يوليو","en":"July 23 Revolution Day","fr":"Fête de la Révolution du 23 Juillet"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-08-25","kind":"public","key":"prophets_birthday","names":{"ar":"المولد النبوي الشريف","en":"Prophet's Birthday","fr":"Naissance du Prophète"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2026-10-08","kind":"observed","key":"armed_forces_day","names":{"ar":"عيد القوات المسلحة (يوم تعويضي)","en":"Armed Forces Day (observed)","fr":"Fête des Forces Armées (observé)"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

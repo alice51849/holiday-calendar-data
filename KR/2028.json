@@ -1,0 +1,38 @@
+{
+"schema":"offday.holidays/v1",
+"country":"KR",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":"2027-12-31",
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":19,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"월력요항 for this year is published by KASA around June of the previous year; 임시공휴일 are designated ad hoc. Rule-derived until then.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:067e05f6a6e34345c7c615ed639a6bbeb5c0a5c0b02aa5daef5b081336000997",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","ko":"신정연휴","th":"วันปีใหม่สากล"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-26","kind":"public","key":"the_day_preceding_korean_new_year","names":{"en":"The day preceding Korean New Year","ko":"설날 전날","th":"วันก่อนเทศกาลซอลลัล"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-27","kind":"public","key":"korean_new_year","names":{"en":"Korean New Year","ko":"설날","th":"เทศกาลซอลลัล"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-28","kind":"public","key":"the_second_day_of_korean_new_year","names":{"en":"The second day of Korean New Year","ko":"설날 다음날","th":"วันหลังเทศกาลซอลลัล"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-03-01","kind":"public","key":"independence_movement_day","names":{"en":"Independence Movement Day","ko":"삼일절","th":"วันอิสรภาพ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-12","kind":"public","key":"national_assembly_election_day","names":{"en":"National Assembly Election Day","ko":"국회의원 선거일","th":"วันเลือกตั้งสมัชชาแห่งชาติ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"labor_day","names":{"en":"Labor Day","ko":"노동절","th":"วันแรงงาน"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-02","kind":"public","key":"buddhas_birthday","names":{"en":"Buddha's Birthday","ko":"부처님오신날","th":"วันวิสาขบูชา"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-05","kind":"public","key":"childrens_day","names":{"en":"Children's Day","ko":"어린이날","th":"วันเด็ก"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-06","kind":"public","key":"memorial_day","names":{"en":"Memorial Day","ko":"현충일","th":"วันรำลึกวีรชน"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-07-17","kind":"public","key":"constitution_day","names":{"en":"Constitution Day","ko":"제헌절","th":"วันรัฐธรรมนูญ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-08-15","kind":"public","key":"liberation_day","names":{"en":"Liberation Day","ko":"광복절","th":"วันฉลองอิสรภาพ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-02","kind":"public","key":"the_day_preceding_chuseok","names":{"en":"The day preceding Chuseok","ko":"추석 전날","th":"วันก่อนเทศกาลชูซอก"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-03","kind":"public","key":"chuseok","names":{"en":"Chuseok","ko":"개천절","th":"วันสถาปนาประเทศ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-03","kind":"public","key":"national_foundation_day","names":{"en":"National Foundation Day","ko":"추석","th":"เทศกาลชูซอก"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-04","kind":"public","key":"the_second_day_of_chuseok","names":{"en":"The second day of Chuseok","ko":"추석 다음날","th":"วันหลังเทศกาลชูซอก"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-05","kind":"substitute","key":"chuseok","names":{"en":"Alternative holiday for Chuseok","ko":"추석 대체 휴일","th":"ชดเชยเทศกาลชูซอก"},"source":"python-holidays","confidence":"rule_derived","observes":"2028-10-03"},
+{"date":"2028-10-09","kind":"public","key":"hangul_day","names":{"en":"Hangul Day","ko":"한글날","th":"วันฮันกึล"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","ko":"기독탄신일","th":"วันคริสต์มาส"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

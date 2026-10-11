@@ -1,0 +1,31 @@
+{
+"schema":"offday.holidays/v1",
+"country":"NO",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":12,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:e1af1b51ac906f409bdab030bb3ca5653314761d86361479a2a09734c1cbd5f5",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","no":"Første nyttårsdag","th":"วันขึ้นปีใหม่","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-13","kind":"public","key":"maundy_thursday","names":{"en":"Maundy Thursday","no":"Skjærtorsdag","th":"วันพฤหัสศักดิ์สิทธิ์","uk":"Великий четвер"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-14","kind":"public","key":"good_friday","names":{"en":"Good Friday","no":"Langfredag","th":"วันศุกร์ประเสริฐ","uk":"Страсна пʼятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-16","kind":"public","key":"easter_sunday","names":{"en":"Easter Sunday","no":"Første påskedag","th":"วันอาทิตย์อีสเตอร์","uk":"Великдень"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-17","kind":"public","key":"easter_monday","names":{"en":"Easter Monday","no":"Andre påskedag","th":"วันจันทร์อีสเตอร์","uk":"Великодній понеділок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"labor_day","names":{"en":"Labor Day","no":"Arbeidernes dag","th":"วันแรงงาน","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-17","kind":"public","key":"constitution_day","names":{"en":"Constitution Day","no":"Grunnlovsdag","th":"วันรัฐธรรมนูญ","uk":"День Конституції"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-25","kind":"public","key":"ascension_day","names":{"en":"Ascension Day","no":"Kristi himmelfartsdag","th":"วันสมโภชพระเยซูเจ้าเสด็จขึ้นสวรรค์","uk":"Вознесіння Господнє"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-04","kind":"public","key":"pentecost","names":{"en":"Pentecost","no":"Første pinsedag","th":"วันสมโภชพระจิตเจ้า","uk":"Пʼятидесятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-05","kind":"public","key":"pentecost_monday","names":{"en":"Pentecost Monday","no":"Andre pinsedag","th":"วันจันทร์หลังวันสมโภชพระจิตเจ้า","uk":"Другий день Пʼятидесятниці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","no":"Første juledag","th":"วันคริสต์มาสวันแรก","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-26","kind":"public","key":"second_day_of_christmas","names":{"en":"Second Day of Christmas","no":"Andre juledag","th":"วันคริสต์มาสวันที่สอง","uk":"Другий день Різдва"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

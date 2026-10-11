@@ -1,0 +1,34 @@
+{
+"schema":"offday.holidays/v1",
+"country":"BE",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":15,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:eca28a9cc07d5d9cbaf04dda06841a051676c610dff897269978ce37d7a80733",
+"dates":[
+{"date":"2027-01-01","kind":"public","key":"new_years_day","names":{"de":"Neujahr","en":"New Year's Day","fr":"Nouvel An","nl":"Nieuwjaar","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-26","kind":"optional","key":"good_friday","names":{"en":"Good Friday","nl":"Goede vrijdag"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]},
+{"date":"2027-03-28","kind":"public","key":"easter_sunday","names":{"de":"Ostern","en":"Easter Sunday","fr":"Pâques","nl":"Pasen","uk":"Великдень"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-29","kind":"public","key":"easter_monday","names":{"de":"Ostermontag","en":"Easter Monday","fr":"Lundi de Pâques","nl":"Paasmaandag","uk":"Великодній понеділок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-01","kind":"public","key":"labor_day","names":{"de":"Tag der Arbeit","en":"Labor Day","fr":"Fête du Travail","nl":"Dag van de Arbeid","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-06","kind":"public","key":"ascension_day","names":{"de":"Christi Himmelfahrt","en":"Ascension Day","fr":"Ascension","nl":"O. L. H. Hemelvaart","uk":"Вознесіння Господнє"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-07","kind":"optional","key":"friday_after_ascension_day","names":{"en":"Friday after Ascension Day","nl":"Vrijdag na O. L. H. Hemelvaart"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]},
+{"date":"2027-05-16","kind":"public","key":"pentecost","names":{"de":"Pfingsten","en":"Pentecost","fr":"Pentecôte","nl":"Pinksteren","uk":"Пʼятидесятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-17","kind":"public","key":"pentecost_monday","names":{"de":"Pfingstmontag","en":"Pentecost Monday","fr":"Lundi de Pentecôte","nl":"Pinkstermaandag","uk":"Другий день Пʼятидесятниці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-07-21","kind":"public","key":"national_day","names":{"de":"Nationalfeiertag","en":"National Day","fr":"Fête nationale","nl":"Nationale feestdag","uk":"Національне свято"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-08-15","kind":"public","key":"assumption_day","names":{"de":"Mariä Himmelfahrt","en":"Assumption Day","fr":"Assomption","nl":"O. L. V. Hemelvaart","uk":"Внебовзяття Пресвятої Діви Марії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-11-01","kind":"public","key":"all_saints_day","names":{"de":"Allerheiligen","en":"All Saints' Day","fr":"Toussaint","nl":"Allerheiligen","uk":"День усіх святих"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-11-11","kind":"public","key":"armistice_day","names":{"de":"Waffenstillstand","en":"Armistice Day","fr":"Jour de l'Armistice","nl":"Wapenstilstand","uk":"День перемирʼя"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-25","kind":"public","key":"christmas_day","names":{"de":"Weihnachten","en":"Christmas Day","fr":"Noël","nl":"Kerstmis","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-26","kind":"optional","key":"bank_holiday","names":{"en":"Bank Holiday","nl":"Banksluitingsdag"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

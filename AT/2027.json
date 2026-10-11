@@ -1,0 +1,35 @@
+{
+"schema":"offday.holidays/v1",
+"country":"AT",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":16,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:2e33421e3965823b2f509c69b13e57a31152cf626cc222e96fb516b13c7cf264",
+"dates":[
+{"date":"2027-01-01","kind":"public","key":"new_years_day","names":{"de":"Neujahr","en":"New Year's Day","th":"วันขึ้นปีใหม่","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-01-06","kind":"public","key":"epiphany","names":{"de":"Heilige Drei Könige","en":"Epiphany","th":"วันสมโภชพระคริสต์แสดงองค์","uk":"Богоявлення"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-26","kind":"optional","key":"good_friday","names":{"de":"Karfreitag","en":"Good Friday"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]},
+{"date":"2027-03-29","kind":"public","key":"easter_monday","names":{"de":"Ostermontag","en":"Easter Monday","th":"วันจันทร์อีสเตอร์","uk":"Великодній понеділок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-01","kind":"public","key":"labor_day","names":{"de":"Staatsfeiertag","en":"Labor Day","th":"วันแรงงาน","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-06","kind":"public","key":"ascension_day","names":{"de":"Christi Himmelfahrt","en":"Ascension Day","th":"วันสมโภชพระเยซูเจ้าเสด็จขึ้นสวรรค์","uk":"Вознесіння Господнє"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-17","kind":"public","key":"pentecost_monday","names":{"de":"Pfingstmontag","en":"Pentecost Monday","th":"วันจันทร์หลังวันสมโภชพระจิตเจ้า","uk":"Другий день Пʼятидесятниці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-27","kind":"public","key":"corpus_christi","names":{"de":"Fronleichnam","en":"Corpus Christi","th":"วันสมโภชพระคริสตวรกาย","uk":"Свято Тіла і Крові Христових"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-08-15","kind":"public","key":"assumption_day","names":{"de":"Mariä Himmelfahrt","en":"Assumption Day","th":"วันสมโภชแม่พระรับเกียรติยกขึ้นสวรรค์","uk":"Внебовзяття Пресвятої Діви Марії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-10-26","kind":"public","key":"national_day","names":{"de":"Nationalfeiertag","en":"National Day","th":"วันชาติออสเตรีย","uk":"Національне свято"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-11-01","kind":"public","key":"all_saints_day","names":{"de":"Allerheiligen","en":"All Saints' Day","th":"วันสมโภชนักบุญทั้งหลาย","uk":"День усіх святих"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-08","kind":"public","key":"immaculate_conception","names":{"de":"Mariä Empfängnis","en":"Immaculate Conception","th":"วันสมโภชแม่พระผู้ปฏิสนธินิรมล","uk":"Непорочне зачаття Діви Марії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-24","kind":"optional","key":"christmas_eve","names":{"de":"Heiliger Abend","en":"Christmas Eve"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]},
+{"date":"2027-12-25","kind":"public","key":"christmas_day","names":{"de":"Christtag","en":"Christmas Day","th":"วันคริสต์มาส","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-26","kind":"public","key":"saint_stephens_day","names":{"de":"Stephanstag","en":"Saint Stephen's Day","th":"วันสมโภชนักบุญสเตเฟน","uk":"День Святого Стефана"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-31","kind":"optional","key":"new_years_eve","names":{"de":"Silvester","en":"New Year's Eve"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

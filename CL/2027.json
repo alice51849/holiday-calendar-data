@@ -1,0 +1,39 @@
+{
+"schema":"offday.holidays/v1",
+"country":"CL",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":19,"uncertain":1,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"rule_derived","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:a1e4de750fde716bab35f2081f3f2588f6c47a36aadd777b1826d6dcc8128f8b",
+"dates":[
+{"date":"2027-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","es":"Año Nuevo","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-26","kind":"public","key":"good_friday","names":{"en":"Good Friday","es":"Viernes Santo","uk":"Страсна пʼятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-27","kind":"public","key":"holy_saturday","names":{"en":"Holy Saturday","es":"Sábado Santo","uk":"Велика субота"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-01","kind":"public","key":"labor_day","names":{"en":"Labor Day","es":"Día Nacional del Trabajo","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-21","kind":"public","key":"navy_day","names":{"en":"Navy Day","es":"Día de las Glorias Navales","uk":"День військово-морської слави"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-07","kind":"regional","key":"assault_and_capture_of_cape_arica","names":{"en":"Assault and Capture of Cape Arica","es":"Asalto y Toma del Morro de Arica"},"source":"python-holidays","confidence":"rule_derived","regions":["CL-AP"]},
+{"date":"2027-06-21","kind":"public","key":"national_indigenous_peoples_day","names":{"en":"National Indigenous Peoples Day","es":"Día Nacional de los Pueblos Indígenas","uk":"Національний день корінних народів"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-28","kind":"observed","key":"saint_peter_and_saint_pauls_day","names":{"en":"Saint Peter and Saint Paul's Day","es":"San Pedro y San Pablo","uk":"День Святих Петра і Павла"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-07-16","kind":"public","key":"our_lady_of_mount_carmel","names":{"en":"Our Lady of Mount Carmel","es":"Virgen del Carmen","uk":"Матір Божа Кармельська"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-08-15","kind":"public","key":"assumption_day","names":{"en":"Assumption Day","es":"Asunción de la Virgen","uk":"Внебовзяття Пресвятої Діви Марії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-08-20","kind":"regional","key":"nativity_of_bernardo_ohiggins_chillan_and_chillan_viejo_communes","names":{"en":"Nativity of Bernardo O'Higgins (Chillán and Chillán Viejo communes)","es":"Nacimiento del Prócer de la Independencia (Chillán y Chillán Viejo)"},"source":"python-holidays","confidence":"uncertain","regions":["CL-NB"],"tags":["engine_disagreement"]},
+{"date":"2027-09-17","kind":"public","key":"national_holiday","names":{"en":"National Holiday","es":"Fiestas Patrias","uk":"Національне свято"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-09-18","kind":"public","key":"independence_day","names":{"en":"Independence Day","es":"Día de la Independencia","uk":"День незалежності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-09-19","kind":"public","key":"army_day","names":{"en":"Army Day","es":"Día de las Glorias del Ejército","uk":"День військової слави"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-10-11","kind":"observed","key":"meeting_of_two_worlds_day","names":{"en":"Meeting of Two Worlds' Day","es":"Día del Encuentro de dos Mundos","uk":"День зустрічі двох світів"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-10-31","kind":"public","key":"reformation_day","names":{"en":"Reformation Day","es":"Día Nacional de las Iglesias Evangélicas y Protestantes","uk":"День Реформації"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-11-01","kind":"public","key":"all_saints_day","names":{"en":"All Saints' Day","es":"Día de Todos los Santos","uk":"День усіх святих"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-08","kind":"public","key":"immaculate_conception","names":{"en":"Immaculate Conception","es":"La Inmaculada Concepción","uk":"Непорочне зачаття Діви Марії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","es":"Navidad","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-31","kind":"optional","key":"bank_holiday","names":{"en":"Bank Holiday","es":"Feriado bancario"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

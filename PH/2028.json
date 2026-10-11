@@ -1,0 +1,37 @@
+{
+"schema":"offday.holidays/v1",
+"country":"PH",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":12,"uncertain":6,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:97b4d1914d93cb533569b6cca18c5a3a6a0a42dfe2c64d17621f3f6013116994",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","th":"วันขึ้นปีใหม่"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-26","kind":"public","key":"chinese_new_year","names":{"en":"Chinese New Year","th":"วันตรุษจีน"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2028-02-26","kind":"public","key":"eid_al_fitr","names":{"en":"Eid'l Fitr","th":"วันอีฎิ้ลฟิตริ"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-04-09","kind":"public","key":"day_of_valor","names":{"en":"Araw ng Kagitingan","th":"วันแห่งความกล้าหาญ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-13","kind":"public","key":"maundy_thursday","names":{"en":"Maundy Thursday","th":"วันพฤหัสบดีศักดิ์สิทธิ์"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-14","kind":"public","key":"good_friday","names":{"en":"Good Friday","th":"วันศุกร์ประเสริฐ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-15","kind":"public","key":"black_saturday","names":{"en":"Black Saturday","th":"วันเสาร์ศักดิ์สิทธิ์"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"labor_day","names":{"en":"Labor Day","th":"วันแรงงาน"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-05","kind":"public","key":"eid_al_adha","names":{"en":"Eid'l Adha","th":"วันอีดิ้ลอัฎฮา"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-06-12","kind":"public","key":"independence_day","names":{"en":"Independence Day","th":"วันประกาศเอกราชสาธารณรัฐฟิลิปปินส์"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-08-21","kind":"public","key":"ninoy_aquino_day","names":{"en":"Ninoy Aquino Day","th":"วันนินอย อากีโน"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2028-08-28","kind":"public","key":"national_heroes_day","names":{"en":"National Heroes Day","th":"วันวีรบุรุษแห่งชาติ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-11-01","kind":"public","key":"all_saints_day","names":{"en":"All Saints' Day","th":"วันสมโภชนักบุญทั้งหลาย"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2028-11-30","kind":"public","key":"bonifacio_day","names":{"en":"Bonifacio Day","th":"วันโบนีฟาซีโอ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-08","kind":"public","key":"immaculate_conception","names":{"en":"Feast of the Immaculate Conception of Mary","th":"วันสมโภชแม่พระผู้ปฏิสนธินิรมล"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","th":"วันคริสต์มาส"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-30","kind":"public","key":"rizal_day","names":{"en":"Rizal Day","th":"วันรีซัล"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-31","kind":"public","key":"new_years_eve","names":{"en":"Last Day of the Year","th":"วันสิ้นปี"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

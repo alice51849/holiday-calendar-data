@@ -1,0 +1,38 @@
+{
+"schema":"offday.holidays/v1",
+"country":"DE",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":19,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"rule_derived","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:aa436b53fa75cde5cc505fb47b639d158572845b1fe3bdf078059013b1c33b83",
+"dates":[
+{"date":"2027-01-01","kind":"public","key":"new_years_day","names":{"de":"Neujahr","en":"New Year's Day","th":"วันขึ้นปีใหม่","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-01-06","kind":"regional","key":"epiphany","names":{"de":"Heilige Drei Könige","en":"Epiphany"},"source":"python-holidays","confidence":"rule_derived","regions":["DE-BW","DE-BY","DE-ST"]},
+{"date":"2027-03-08","kind":"regional","key":"womens_day","names":{"de":"Frauentag","en":"Women's Day"},"source":"python-holidays","confidence":"rule_derived","regions":["DE-BE","DE-MV"]},
+{"date":"2027-03-26","kind":"public","key":"good_friday","names":{"de":"Karfreitag","en":"Good Friday","th":"วันศุกร์ประเสริฐ","uk":"Страсна пʼятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-28","kind":"regional","key":"easter_sunday","names":{"de":"Ostersonntag","en":"Easter Sunday"},"source":"python-holidays","confidence":"rule_derived","regions":["DE-BB"]},
+{"date":"2027-03-29","kind":"public","key":"easter_monday","names":{"de":"Ostermontag","en":"Easter Monday","th":"วันจันทร์อีสเตอร์","uk":"Великодній понеділок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-01","kind":"public","key":"labor_day","names":{"de":"Erster Mai","en":"Labor Day","th":"วันแรงงาน","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-06","kind":"public","key":"ascension_day","names":{"de":"Christi Himmelfahrt","en":"Ascension Day","th":"วันสมโภชพระเยซูเจ้าเสด็จขึ้นสวรรค์","uk":"Вознесіння Господнє"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-16","kind":"regional","key":"pentecost","names":{"de":"Pfingstsonntag","en":"Pentecost"},"source":"python-holidays","confidence":"rule_derived","regions":["DE-BB"]},
+{"date":"2027-05-17","kind":"public","key":"pentecost_monday","names":{"de":"Pfingstmontag","en":"Pentecost Monday","th":"วันจันทร์หลังวันสมโภชพระจิตเจ้า","uk":"Другий день Пʼятидесятниці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-27","kind":"regional","key":"corpus_christi","names":{"de":"Fronleichnam","en":"Corpus Christi"},"source":"python-holidays","confidence":"rule_derived","regions":["DE-BW","DE-BY","DE-HE","DE-NW","DE-RP","DE-SL"]},
+{"date":"2027-08-15","kind":"regional","key":"assumption_day","names":{"de":"Mariä Himmelfahrt","en":"Assumption Day"},"source":"python-holidays","confidence":"rule_derived","regions":["DE-SL"]},
+{"date":"2027-09-20","kind":"regional","key":"world_childrens_day","names":{"de":"Weltkindertag","en":"World Children's Day"},"source":"python-holidays","confidence":"rule_derived","regions":["DE-TH"]},
+{"date":"2027-10-03","kind":"public","key":"german_unity_day","names":{"de":"Tag der Deutschen Einheit","en":"German Unity Day","th":"วันรวมชาติเยอรมัน","uk":"День німецької єдності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-10-31","kind":"regional","key":"reformation_day","names":{"de":"Reformationstag","en":"Reformation Day"},"source":"python-holidays","confidence":"rule_derived","regions":["DE-BB","DE-HB","DE-HH","DE-MV","DE-NI","DE-SH","DE-SN","DE-ST","DE-TH"]},
+{"date":"2027-11-01","kind":"regional","key":"all_saints_day","names":{"de":"Allerheiligen","en":"All Saints' Day"},"source":"python-holidays","confidence":"rule_derived","regions":["DE-BW","DE-BY","DE-NW","DE-RP","DE-SL"]},
+{"date":"2027-11-17","kind":"regional","key":"repentance_and_prayer_day","names":{"de":"Buß- und Bettag","en":"Repentance and Prayer Day"},"source":"python-holidays","confidence":"rule_derived","regions":["DE-SN"]},
+{"date":"2027-12-25","kind":"public","key":"christmas_day","names":{"de":"Erster Weihnachtstag","en":"Christmas Day","th":"วันคริสต์มาสวันแรก","uk":"Перший день Різдва"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-26","kind":"public","key":"second_day_of_christmas","names":{"de":"Zweiter Weihnachtstag","en":"Second Day of Christmas","th":"วันคริสต์มาสวันที่สอง","uk":"Другий день Різдва"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

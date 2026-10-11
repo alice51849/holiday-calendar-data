@@ -1,0 +1,32 @@
+{
+"schema":"offday.holidays/v1",
+"country":"ZA",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":13,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:620ce2991b5abc9bc3822a66abd2f298d2a988fccfbb61dabc510c42d84e0a75",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-03-21","kind":"public","key":"human_rights_day","names":{"en":"Human Rights Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-14","kind":"public","key":"good_friday","names":{"en":"Good Friday"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-17","kind":"public","key":"family_day","names":{"en":"Family Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-27","kind":"public","key":"freedom_day","names":{"en":"Freedom Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"workers_day","names":{"en":"Workers' Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-16","kind":"public","key":"youth_day","names":{"en":"Youth Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-08-09","kind":"public","key":"national_womens_day","names":{"en":"National Women's Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-09-24","kind":"public","key":"heritage_day","names":{"en":"Heritage Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-09-25","kind":"observed","key":"heritage_day","names":{"en":"Heritage Day (observed)"},"source":"python-holidays","confidence":"rule_derived","observes":"2028-09-24"},
+{"date":"2028-12-16","kind":"public","key":"day_of_reconciliation","names":{"en":"Day of Reconciliation"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-26","kind":"public","key":"day_of_goodwill","names":{"en":"Day of Goodwill"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

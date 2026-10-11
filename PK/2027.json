@@ -1,0 +1,35 @@
+{
+"schema":"offday.holidays/v1",
+"country":"PK",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":7,"uncertain":9,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:aad43c300734c5d89bd544ea02596b288a447fa2d9e6c151ed85fdbe50bff1f3",
+"dates":[
+{"date":"2027-02-05","kind":"public","key":"kashmir_solidarity_day","names":{"en":"Kashmir Solidarity Day","ur":"یوم یکجہتی کشمیر"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-09","kind":"public","key":"eid_al_fitr","names":{"en":"Eid-ul-Fitr","ur":"عید الفطر"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2027-03-10","kind":"public","key":"eid_al_fitr","names":{"en":"Eid-ul-Fitr","ur":"عید الفطر"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2027-03-11","kind":"public","key":"eid_al_fitr","names":{"en":"Eid-ul-Fitr","ur":"عید الفطر"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2027-03-23","kind":"public","key":"pakistan_day","names":{"en":"Pakistan Day","ur":"یوم پاکستان"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-01","kind":"public","key":"labor_day","names":{"en":"Labour Day","ur":"یوم مزدور"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-16","kind":"public","key":"eid_al_adha","names":{"en":"Eid-ul-Adha","ur":"عید الاضحی"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2027-05-17","kind":"public","key":"eid_al_adha","names":{"en":"Eid-ul-Adha","ur":"عید الاضحی"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2027-05-18","kind":"public","key":"eid_al_adha","names":{"en":"Eid-ul-Adha","ur":"عید الاضحی"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2027-05-28","kind":"public","key":"youm_e_takbeer","names":{"en":"Youm-e-Takbeer","ur":"یوم تکبیر"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-14","kind":"public","key":"ashura","names":{"en":"Ashura","ur":"عاشورہ"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2027-06-15","kind":"public","key":"ashura","names":{"en":"Ashura","ur":"عاشورہ"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2027-08-14","kind":"public","key":"independence_day","names":{"en":"Eid Milad-un-Nabi","ur":"عید میلاد النبی"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-08-14","kind":"public","key":"prophets_birthday","names":{"en":"Independence Day","ur":"یوم آزادی"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2027-11-09","kind":"public","key":"iqbal_day","names":{"en":"Iqbal Day","ur":"یوم اقبال"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-25","kind":"public","key":"quaid_e_azam_day","names":{"en":"Quaid-e-Azam Day","ur":"یوم قائداعظم"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

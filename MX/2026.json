@@ -1,0 +1,26 @@
+{
+"schema":"offday.holidays/v1",
+"country":"MX",
+"region":null,
+"year":2026,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":7,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:967f3dd69a5ed141d6c456e8dfa3bb09f8baf0abb3f2be6950c9d8dbc232f300",
+"dates":[
+{"date":"2026-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","es":"Año Nuevo","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-02-02","kind":"public","key":"constitution_day","names":{"en":"Constitution Day","es":"Día de la Constitución","uk":"День Конституції"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-03-16","kind":"public","key":"benito_juarezs_birthday","names":{"en":"Benito Juárez's birthday","es":"Natalicio de Benito Juárez","uk":"Річниця Беніто Хуареса"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-05-01","kind":"public","key":"labor_day","names":{"en":"Labor Day","es":"Día del Trabajo","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-09-16","kind":"public","key":"independence_day","names":{"en":"Independence Day","es":"Día de la Independencia","uk":"День незалежності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-11-16","kind":"public","key":"revolution_day","names":{"en":"Revolution Day","es":"Día de la Revolución","uk":"День революції"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","es":"Navidad","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

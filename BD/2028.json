@@ -1,0 +1,37 @@
+{
+"schema":"offday.holidays/v1",
+"country":"BD",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[5,6],
+"coverage":{"counts":{"rule_derived":7,"uncertain":11,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:a2a7a5bd185e50d46296952eede079f14dedc725750b217ba1e18f4f06dff23d",
+"dates":[
+{"date":"2028-01-13","kind":"public","key":"mid_shaban","names":{"ar":"ليلة النصف من شعبان","bn":"শবে বরাত","en":"Mid-Sha'ban"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-21","kind":"public","key":"martyrs_day_and_international_mother_language_day","names":{"ar":"يوم الشهداء واليوم الدولي للغة الأم","bn":"শহীদ দিবস ও আন্তর্জাতিক মাতৃভাষা দিবস","en":"Martyrs' Day and International Mother Language Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-02-24","kind":"public","key":"laylat_al_qadr","names":{"ar":"ليلة القدر","bn":"শবে কদর","en":"Laylat al-Qadr"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-25","kind":"public","key":"jumuatul_wida","names":{"ar":"جمعة الوداع","bn":"জুমাতুল বিদা","en":"Jumu'atul-Wida"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-27","kind":"public","key":"eid_al_fitr","names":{"ar":"عيد الفطر","bn":"ঈদুল ফিতর","en":"Eid al-Fitr"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-28","kind":"public","key":"eid_al_fitr","names":{"ar":"عيد الفطر","bn":"ঈদুল ফিতর","en":"Eid al-Fitr"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-29","kind":"public","key":"eid_al_fitr","names":{"ar":"عيد الفطر","bn":"ঈদুল ফিতর","en":"Eid al-Fitr"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-03-26","kind":"public","key":"independence_day","names":{"ar":"عيد الاستقلال","bn":"স্বাধীনতা দিবস","en":"Independence Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-14","kind":"public","key":"bengali_new_years_day","names":{"ar":"رأس السنة البنغالية","bn":"পহেলা বৈশাখ","en":"Bengali New Year's Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"may_day","names":{"ar":"الأول من مايو","bn":"মে দিবস","en":"May Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-06","kind":"public","key":"eid_al_adha","names":{"ar":"عيد الأضحى","bn":"ঈদুল আজহা","en":"Eid al-Adha"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-05-07","kind":"public","key":"eid_al_adha","names":{"ar":"عيد الأضحى","bn":"ঈদুল আজহা","en":"Eid al-Adha"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-05-08","kind":"public","key":"eid_al_adha","names":{"ar":"عيد الأضحى","bn":"ঈদুল আজহা","en":"Eid al-Adha"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-06-04","kind":"public","key":"ashura","names":{"ar":"عاشوراء","bn":"আশুরা","en":"Ashura"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-08-04","kind":"public","key":"prophets_birthday","names":{"ar":"المولد النبوي الشريف","bn":"ঈদে মিলাদুন্নবী","en":"Prophet's Birthday"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-08-05","kind":"public","key":"july_mass_uprising_day","names":{"ar":"يوم الانتفاضة الشعبية في يوليو","bn":"জুলাই গণ-অভ্যুত্থান দিবস","en":"July Mass Uprising Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-16","kind":"public","key":"victory_day","names":{"ar":"عيد النصر","bn":"বিজয় দিবস","en":"Victory Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"ar":"عيد الميلاد","bn":"বড়দিন","en":"Christmas Day"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

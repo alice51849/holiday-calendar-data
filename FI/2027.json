@@ -1,0 +1,34 @@
+{
+"schema":"offday.holidays/v1",
+"country":"FI",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":13,"uncertain":2,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:84ccf2ab867e86ebff67a857dd8d24cf6a23da74f0a767a8b4bfa59156d93a57",
+"dates":[
+{"date":"2027-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","fi":"Uudenvuodenpäivä","sv":"Nyårsdagen","th":"วันขึ้นปีใหม่","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-01-06","kind":"public","key":"epiphany","names":{"en":"Epiphany","fi":"Loppiainen","sv":"Trettondag","th":"วันสมโภชพระคริสต์แสดงองค์","uk":"Богоявлення"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-26","kind":"public","key":"good_friday","names":{"en":"Good Friday","fi":"Pitkäperjantai","sv":"Långfredagen","th":"วันศุกร์ประเสริฐ","uk":"Страсна пʼятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-28","kind":"public","key":"easter_sunday","names":{"en":"Easter Sunday","fi":"Pääsiäispäivä","sv":"Påskdagen","th":"วันอาทิตย์อีสเตอร์","uk":"Великдень"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-29","kind":"public","key":"easter_monday","names":{"en":"Easter Monday","fi":"Toinen pääsiäispäivä","sv":"Annandag påsk","th":"วันจันทร์อีสเตอร์","uk":"Великодній понеділок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-01","kind":"public","key":"may_day","names":{"en":"May Day","fi":"Vappu","sv":"Första maj","th":"วันเมย์เดย์ (วันแรงงาน)","uk":"Ваппу"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-06","kind":"public","key":"ascension_day","names":{"en":"Ascension Day","fi":"Helatorstai","sv":"Kristi himmelsfärdsdag","th":"วันสมโภชพระเยซูเจ้าเสด็จขึ้นสวรรค์","uk":"Вознесіння Господнє"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-16","kind":"public","key":"pentecost","names":{"en":"Pentecost","fi":"Helluntaipäivä","sv":"Pingst","th":"วันสมโภชพระจิตเจ้า","uk":"Пʼятидесятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-25","kind":"public","key":"midsummer_eve","names":{"en":"Midsummer Eve","fi":"Juhannusaatto","sv":"Midsommarafton","th":"วันมิดซัมเมอร์อีฟ (วันก่อนวันกลางฤดูร้อน)","uk":"Переддень літнього сонцестояння"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2027-06-26","kind":"public","key":"midsummer_day","names":{"en":"Midsummer Day","fi":"Juhannuspäivä","sv":"Midsommardagen","th":"วันมิดซัมเมอร์ (วันกลางฤดูร้อน)","uk":"День літнього сонцестояння"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-11-06","kind":"public","key":"all_saints_day","names":{"en":"All Saints' Day","fi":"Pyhäinpäivä","sv":"Alla helgons dag","th":"วันสมโภชนักบุญทั้งหลาย","uk":"День усіх святих"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-06","kind":"public","key":"independence_day","names":{"en":"Independence Day","fi":"Itsenäisyyspäivä","sv":"Självständighetsdagen","th":"วันประกาศอิสรภาพฟินแลนด์","uk":"День незалежності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-24","kind":"public","key":"christmas_eve","names":{"en":"Christmas Eve","fi":"Jouluaatto","sv":"Julafton","th":"วันคริสต์มาสอีฟ","uk":"Святий вечір"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2027-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","fi":"Joulupäivä","sv":"Juldagen","th":"วันคริสต์มาส","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-26","kind":"public","key":"second_day_of_christmas","names":{"en":"Second Day of Christmas","fi":"Tapaninpäivä","sv":"Annandag jul","th":"วันคริสต์มาสวันที่สอง","uk":"Другий день Різдва"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

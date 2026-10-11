@@ -1,0 +1,33 @@
+{
+"schema":"offday.holidays/v1",
+"country":"TR",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":12,"uncertain":2,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:080c87bf29e73cf9e260f7a4faf3ba32bf772e56d453159e1e3519af0bd2b29f",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","tr":"Yılbaşı","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-02-26","kind":"public","key":"eid_al_fitr","names":{"en":"Eid al-Fitr","tr":"Ramazan Bayramı","uk":"Рамазан-байрам"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-02-27","kind":"public","key":"eid_al_fitr","names":{"en":"Eid al-Fitr","tr":"Ramazan Bayramı","uk":"Рамазан-байрам"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-02-28","kind":"public","key":"eid_al_fitr","names":{"en":"Eid al-Fitr","tr":"Ramazan Bayramı","uk":"Рамазан-байрам"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2028-04-23","kind":"public","key":"national_sovereignty_and_childrens_day","names":{"en":"National Sovereignty and Children's Day","tr":"Ulusal Egemenlik ve Çocuk Bayramı","uk":"День національної незалежності та дітей"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"labour_and_solidarity_day","names":{"en":"Labour and Solidarity Day","tr":"Emek ve Dayanışma Günü","uk":"День праці та солідарності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-05","kind":"public","key":"eid_al_adha","names":{"en":"Eid al-Adha","tr":"Kurban Bayramı","uk":"Курбан-байрам"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-06","kind":"public","key":"eid_al_adha","names":{"en":"Eid al-Adha","tr":"Kurban Bayramı","uk":"Курбан-байрам"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-07","kind":"public","key":"eid_al_adha","names":{"en":"Eid al-Adha","tr":"Kurban Bayramı","uk":"Курбан-байрам"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-08","kind":"public","key":"eid_al_adha","names":{"en":"Eid al-Adha","tr":"Kurban Bayramı","uk":"Курбан-байрам"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2028-05-19","kind":"public","key":"commemoration_of_ataturk_youth_and_sports_day","names":{"en":"Commemoration of Atatürk, Youth and Sports Day","tr":"Atatürk'ü Anma, Gençlik ve Spor Bayramı","uk":"День вшанування памʼяті Ататюрка, молоді та спорту"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-07-15","kind":"public","key":"democracy_and_national_unity_day","names":{"en":"Democracy and National Unity Day","tr":"Demokrasi ve Millî Birlik Günü","uk":"День демократії та національної єдності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-08-30","kind":"public","key":"victory_day","names":{"en":"Victory Day","tr":"Zafer Bayramı","uk":"День Перемоги"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-29","kind":"public","key":"republic_day","names":{"en":"Republic Day","tr":"Cumhuriyet Bayramı","uk":"День Республіки"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

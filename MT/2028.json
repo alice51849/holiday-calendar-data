@@ -1,0 +1,33 @@
+{
+"schema":"offday.holidays/v1",
+"country":"MT",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":14,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:9ba64f66fd7b3c150742cca9d59320012f4c833751507aa5ee1fa1bb26242b27",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","mt":"L-Ewwel tas-Sena"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-02-10","kind":"public","key":"feast_of_saint_pauls_shipwreck","names":{"en":"Feast of Saint Paul's Shipwreck","mt":"Il-Festa tan-Nawfraġju ta' San Pawl"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-03-19","kind":"public","key":"feast_of_saint_joseph","names":{"en":"Feast of Saint Joseph","mt":"Il-Festa ta' San Ġużepp"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-03-31","kind":"public","key":"freedom_day","names":{"en":"Freedom Day","mt":"Jum il-Ħelsien"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-14","kind":"public","key":"good_friday","names":{"en":"Good Friday","mt":"Il-Ġimgħa l-Kbira"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"workers_day","names":{"en":"Worker's Day","mt":"Jum il-Ħaddiem"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-07","kind":"public","key":"sette_giugno","names":{"en":"Sette Giugno","mt":"Sette Giugno"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-29","kind":"public","key":"feast_of_saint_peter_and_saint_paul","names":{"en":"Feast of Saint Peter and Saint Paul","mt":"Il-Festa ta' San Pietru u San Pawl"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-08-15","kind":"public","key":"feast_of_the_assumption","names":{"en":"Feast of the Assumption","mt":"Il-Festa ta' Santa Marija"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-09-08","kind":"public","key":"feast_of_our_lady_of_victories","names":{"en":"Feast of Our Lady of Victories","mt":"Jum il-Vitorja"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-09-21","kind":"public","key":"independence_day","names":{"en":"Independence Day","mt":"Jum l-Indipendenza"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-08","kind":"public","key":"feast_of_the_immaculate_conception","names":{"en":"Feast of the Immaculate Conception","mt":"Il-Festa tal-Immakulata Kunċizzjoni"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-13","kind":"public","key":"republic_day","names":{"en":"Republic Day","mt":"Jum ir-Repubblika"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","mt":"Il-Milied"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

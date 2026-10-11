@@ -1,0 +1,39 @@
+{
+"schema":"offday.holidays/v1",
+"country":"JP",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":"2027-12-31",
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":20,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Not yet in syukujitsu.csv (last date 2027-11-23). Vernal/Autumnal Equinox Day are fixed by the Cabinet Office announcement in February of the previous year; until then dates are astronomical calculations.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:3d91d78ce64bb7f521278ab98ab291e391c0b310e019d826a9265ad226da22e9",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","ja":"元日","th":"วันขึ้นปีใหม่"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-01","kind":"optional","key":"bank_holiday","names":{"en":"Bank Holiday","ja":"銀行休業日"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]},
+{"date":"2028-01-02","kind":"optional","key":"bank_holiday","names":{"en":"Bank Holiday","ja":"銀行休業日"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]},
+{"date":"2028-01-03","kind":"optional","key":"bank_holiday","names":{"en":"Bank Holiday","ja":"銀行休業日"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]},
+{"date":"2028-01-10","kind":"public","key":"coming_of_age_day","names":{"en":"Coming of Age Day","ja":"成人の日","th":"วันฉลองบรรลุนิติภาวะ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-02-11","kind":"public","key":"foundation_day","names":{"en":"Foundation Day","ja":"建国記念の日","th":"วันชาติญี่ปุ่น"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-02-23","kind":"public","key":"emperors_birthday","names":{"en":"Emperor's Birthday","ja":"天皇誕生日","th":"วันคล้ายวันพระราชสมภพ สมเด็จพระจักรพรรดินารุฮิโตะ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-03-20","kind":"public","key":"vernal_equinox_day","names":{"en":"Vernal Equinox Day","ja":"春分の日","th":"วันวสันตวิษุวัต"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-29","kind":"public","key":"showa_day","names":{"en":"Showa Day","ja":"昭和の日","th":"วันโชวะ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-03","kind":"public","key":"constitution_day","names":{"en":"Constitution Day","ja":"憲法記念日","th":"วันรัฐธรรมนูญ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-04","kind":"public","key":"greenery_day","names":{"en":"Greenery Day","ja":"みどりの日","th":"วันพฤกษชาติ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-05","kind":"public","key":"childrens_day","names":{"en":"Children's Day","ja":"こどもの日","th":"วันเด็กแห่งชาติ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-07-17","kind":"public","key":"marine_day","names":{"en":"Marine Day","ja":"海の日","th":"วันแห่งทะเล"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-08-11","kind":"public","key":"mountain_day","names":{"en":"Mountain Day","ja":"山の日","th":"วันแห่งภูเขา"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-09-18","kind":"public","key":"respect_for_the_aged_day","names":{"en":"Respect for the Aged Day","ja":"敬老の日","th":"วันเคารพผู้สูงอายุ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-09-22","kind":"public","key":"autumnal_equinox_day","names":{"en":"Autumnal Equinox Day","ja":"秋分の日","th":"วันศารทวิษุวัต"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-09","kind":"public","key":"sports_day","names":{"en":"Sports Day","ja":"スポーツの日","th":"วันกีฬาแห่งชาติ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-11-03","kind":"public","key":"culture_day","names":{"en":"Culture Day","ja":"文化の日","th":"วันวัฒนธรรม"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-11-23","kind":"public","key":"labor_thanksgiving_day","names":{"en":"Labor Thanksgiving Day","ja":"勤労感謝の日","th":"วันขอบคุณแรงงาน"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-31","kind":"optional","key":"bank_holiday","names":{"en":"Bank Holiday","ja":"銀行休業日"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

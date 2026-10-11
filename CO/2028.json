@@ -1,0 +1,38 @@
+{
+"schema":"offday.holidays/v1",
+"country":"CO",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":19,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:fe61e16d67b4fe576244f12126c156a2967f05f5fa42c6c1d9789155bb5ffa64",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","es":"Año Nuevo","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-10","kind":"observed","key":"epiphany","names":{"en":"Epiphany (observed)","es":"Día de los Reyes Magos (observado)","uk":"Богоявлення (вихідний)"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-03-20","kind":"observed","key":"saint_josephs_day","names":{"en":"Saint Joseph's Day (observed)","es":"Día de San José (observado)","uk":"День Святого Йосипа (вихідний)"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-13","kind":"public","key":"maundy_thursday","names":{"en":"Maundy Thursday","es":"Jueves Santo","uk":"Великий четвер"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-14","kind":"public","key":"good_friday","names":{"en":"Good Friday","es":"Viernes Santo","uk":"Страсна пʼятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"labor_day","names":{"en":"Labor Day","es":"Día del Trabajo","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-29","kind":"observed","key":"ascension_day","names":{"en":"Ascension Day (observed)","es":"Ascensión del señor (observado)","uk":"Вознесіння Господнє (вихідний)"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-19","kind":"observed","key":"corpus_christi","names":{"en":"Corpus Christi (observed)","es":"Corpus Christi (observado)","uk":"Свято Тіла і Крові Христових (вихідний)"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-26","kind":"observed","key":"sacred_heart","names":{"en":"Sacred Heart (observed)","es":"Sagrado Corazón (observado)","uk":"Свято Найсвятішого Серця Ісуса (вихідний)"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-07-03","kind":"observed","key":"saint_peter_and_saint_pauls_day","names":{"en":"Saint Peter and Saint Paul's Day (observed)","es":"San Pedro y San Pablo (observado)","uk":"День Святих Петра і Павла (вихідний)"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-07-10","kind":"observed","key":"day_of_our_lady_of_the_rosary_of_chiquinquira","names":{"en":"Day of Our Lady of the Rosary of Chiquinquirá (observed)","es":"Día de Nuestra Señora del Rosario de Chiquinquirá (observado)","uk":"День Богоматері Розарію з Чікінкіри (вихідний)"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-07-20","kind":"public","key":"independence_day","names":{"en":"Independence Day","es":"Día de la Independencia","uk":"День незалежності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-08-07","kind":"public","key":"battle_of_boyaca","names":{"en":"Battle of Boyacá","es":"Batalla de Boyacá","uk":"Річниця перемоги при Бояка"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-08-21","kind":"observed","key":"assumption_day","names":{"en":"Assumption Day (observed)","es":"La Asunción (observado)","uk":"Внебовзяття Пресвятої Діви Марії (вихідний)"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-16","kind":"observed","key":"columbus_day","names":{"en":"Columbus Day (observed)","es":"Día de la Raza (observado)","uk":"День Колумба (вихідний)"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-11-06","kind":"observed","key":"all_saints_day","names":{"en":"All Saints' Day (observed)","es":"Día de Todos los Santos (observado)","uk":"День усіх святих (вихідний)"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-11-13","kind":"observed","key":"independence_of_cartagena","names":{"en":"Independence of Cartagena (observed)","es":"Independencia de Cartagena (observado)","uk":"День незалежності Картахени (вихідний)"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-08","kind":"public","key":"immaculate_conception","names":{"en":"Immaculate Conception","es":"La Inmaculada Concepción","uk":"Непорочне зачаття Діви Марії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","es":"Navidad","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

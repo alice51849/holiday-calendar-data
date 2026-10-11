@@ -1,0 +1,30 @@
+{
+"schema":"offday.holidays/v1",
+"country":"KE",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":10,"uncertain":1,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:28f1a271a5a593e181e120ceb0768e5cb6109c47e56350c0a7889cef4b86595f",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-02-26","kind":"public","key":"eid_al_fitr","names":{"en":"Idd-ul-Fitr"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-04-14","kind":"public","key":"good_friday","names":{"en":"Good Friday"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-17","kind":"public","key":"easter_monday","names":{"en":"Easter Monday"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"labor_day","names":{"en":"Labour Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-01","kind":"public","key":"madaraka_day","names":{"en":"Madaraka Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-10","kind":"public","key":"mazingira_day","names":{"en":"Mazingira Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-20","kind":"public","key":"mashujaa_day","names":{"en":"Mashujaa Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-12","kind":"public","key":"jamhuri_day","names":{"en":"Jamhuri Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-26","kind":"public","key":"boxing_day","names":{"en":"Boxing Day"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

@@ -1,0 +1,30 @@
+{
+"schema":"offday.holidays/v1",
+"country":"IE",
+"region":null,
+"year":2026,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":11,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:fc8645553cb458f04af660a7cf617a9825476e30903d53d0fc5be6da162a2e73",
+"dates":[
+{"date":"2026-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-02-02","kind":"public","key":"saint_brigids_day","names":{"en":"Saint Brigid's Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-03-17","kind":"public","key":"saint_patricks_day","names":{"en":"Saint Patrick's Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-04-03","kind":"optional","key":"good_friday","names":{"en":"Good Friday"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2026-04-06","kind":"public","key":"easter_monday","names":{"en":"Easter Monday"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-05-04","kind":"public","key":"may_day","names":{"en":"May Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-06-01","kind":"public","key":"june_bank_holiday","names":{"en":"June Bank Holiday"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-08-03","kind":"public","key":"august_bank_holiday","names":{"en":"August Bank Holiday"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-10-26","kind":"public","key":"october_bank_holiday","names":{"en":"October Bank Holiday"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-12-26","kind":"public","key":"saint_stephens_day","names":{"en":"Saint Stephen's Day"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

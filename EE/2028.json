@@ -1,0 +1,31 @@
+{
+"schema":"offday.holidays/v1",
+"country":"EE",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":12,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:49598cd201452a816e4cf941be48688af547a78d9616e0290109564f272d42c0",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","et":"uusaasta","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-02-24","kind":"public","key":"independence_day","names":{"en":"Independence Day","et":"iseseisvuspäev","uk":"День незалежності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-14","kind":"public","key":"good_friday","names":{"en":"Good Friday","et":"suur reede","uk":"Страсна пʼятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-16","kind":"public","key":"easter_sunday","names":{"en":"Easter Sunday","et":"ülestõusmispühade 1. püha","uk":"Великдень"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"may_day","names":{"en":"May Day","et":"kevadpüha","uk":"День весни"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-04","kind":"public","key":"pentecost","names":{"en":"Pentecost","et":"nelipühade 1. püha","uk":"Пʼятидесятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-23","kind":"public","key":"victory_day","names":{"en":"Victory Day","et":"võidupüha","uk":"День Перемоги"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-24","kind":"public","key":"midsummer_day","names":{"en":"Midsummer Day","et":"jaanipäev","uk":"День літнього сонцестояння"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-08-20","kind":"public","key":"independence_restoration_day","names":{"en":"Independence Restoration Day","et":"taasiseseisvumispäev","uk":"День відновлення незалежності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-24","kind":"public","key":"christmas_eve","names":{"en":"Christmas Eve","et":"jõululaupäev","uk":"Святий вечір"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","et":"esimene jõulupüha","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-26","kind":"public","key":"second_day_of_christmas","names":{"en":"Second Day of Christmas","et":"teine jõulupüha","uk":"Другий день Різдва"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

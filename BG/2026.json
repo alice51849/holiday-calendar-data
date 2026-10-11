@@ -1,0 +1,37 @@
+{
+"schema":"offday.holidays/v1",
+"country":"BG",
+"region":null,
+"year":2026,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":14,"uncertain":4,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:39dfb4e64b45bed32e733014813bd710986eaf7177120b28b3fb8480e7f82617",
+"dates":[
+{"date":"2026-01-01","kind":"public","key":"new_years_day","names":{"bg":"Нова година","en":"New Year's Day","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-01-02","kind":"public","key":"non_working_day","names":{"bg":"Неприсъствен ден","en":"Non-working day","uk":"Неробочий день"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2026-03-03","kind":"public","key":"liberation_day","names":{"bg":"Ден на Освобождението на България от османско иго","en":"Liberation Day","uk":"День визволення Болгарії від османського іга"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-04-10","kind":"public","key":"good_friday","names":{"bg":"Велики петък","en":"Good Friday","uk":"Страсна пʼятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-04-11","kind":"public","key":"holy_saturday","names":{"bg":"Велика събота","en":"Holy Saturday","uk":"Велика субота"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-04-12","kind":"public","key":"easter","names":{"bg":"Великден","en":"Easter","uk":"Великдень"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-04-13","kind":"public","key":"easter","names":{"bg":"Великден","en":"Easter","uk":"Великдень"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-05-01","kind":"public","key":"labor_day_and_international_workers_solidarity_day","names":{"bg":"Ден на труда и на международната работническа солидарност","en":"Labor Day and International Workers' Solidarity Day","uk":"День праці та міжнародної солідарності трудящих"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-05-06","kind":"public","key":"saint_georges_day_day_of_the_bulgarian_army","names":{"bg":"Гергьовден, Ден на храбростта и Българската армия","en":"Saint George's Day, Day of the Bulgarian Army","uk":"День Святого Георгія та День хоробрості і болгарської армії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-05-24","kind":"public","key":"day_of_slavonic_alphabet_bulgarian_enlightenment_and_culture","names":{"bg":"Ден на светите братя Кирил и Методий, на българската азбука, просвета и култура и на славянската книжовност","en":"Day of Slavonic Alphabet, Bulgarian Enlightenment and Culture","uk":"День святих братів Кирила і Мефодія, болгарської писемності, освіти і культури та словʼянської літератури"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-05-25","kind":"observed","key":"day_of_slavonic_alphabet_bulgarian_enlightenment_and_culture","names":{"bg":"Ден на светите братя Кирил и Методий, на българската азбука, просвета и култура и на славянската книжовност (почивен ден)","en":"Day of Slavonic Alphabet, Bulgarian Enlightenment and Culture (observed)","uk":"День святих братів Кирила і Мефодія, болгарської писемності, освіти і культури та словʼянської літератури (вихідний)"},"source":"python-holidays","confidence":"uncertain","observes":"2026-05-24","tags":["engine_disagreement"]},
+{"date":"2026-09-06","kind":"public","key":"unification_day","names":{"bg":"Ден на Съединението","en":"Unification Day","uk":"День обʼєднання"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-09-07","kind":"observed","key":"unification_day","names":{"bg":"Ден на Съединението (почивен ден)","en":"Unification Day (observed)","uk":"День обʼєднання (вихідний)"},"source":"python-holidays","confidence":"uncertain","observes":"2026-09-06","tags":["engine_disagreement"]},
+{"date":"2026-09-22","kind":"public","key":"independence_day","names":{"bg":"Ден на Независимостта на България","en":"Independence Day","uk":"День незалежності Болгарії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-12-24","kind":"public","key":"christmas_eve","names":{"bg":"Бъдни вечер","en":"Christmas Eve","uk":"Святий вечір"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-12-25","kind":"public","key":"christmas_day","names":{"bg":"Рождество Христово","en":"Christmas Day","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-12-26","kind":"public","key":"christmas_day","names":{"bg":"Рождество Христово","en":"Christmas Day","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-12-28","kind":"observed","key":"christmas_day","names":{"bg":"Рождество Христово (почивен ден)","en":"Christmas Day (observed)","uk":"Різдво Христове (вихідний)"},"source":"python-holidays","confidence":"uncertain","observes":"2026-12-26","tags":["engine_disagreement"]}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

@@ -1,0 +1,34 @@
+{
+"schema":"offday.holidays/v1",
+"country":"SI",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":15,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:1ebbbd95b07ffe3a6ca18f49863bc4704916bbbda5b0a8c548dc0df4a6e70b32",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","sl":"novo leto","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-02","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","sl":"novo leto","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-02-08","kind":"public","key":"preserens_day_the_slovenian_cultural_holiday","names":{"en":"Prešeren's Day, the Slovenian Cultural Holiday","sl":"Prešernov dan, slovenski kulturni praznik","uk":"День Прешерена, свято словенської культури"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-16","kind":"public","key":"easter_sunday","names":{"en":"Easter Sunday","sl":"velikonočna nedelja","uk":"Великдень"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-17","kind":"public","key":"easter_monday","names":{"en":"Easter Monday","sl":"velikonočni ponedeljek","uk":"Великодній понеділок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-27","kind":"public","key":"day_of_uprising_against_occupation","names":{"en":"Day of Uprising Against Occupation","sl":"dan upora proti okupatorju","uk":"День спротиву окупантам"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"labor_day","names":{"en":"Labor Day","sl":"praznik dela","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-02","kind":"public","key":"labor_day","names":{"en":"Labor Day","sl":"praznik dela","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-04","kind":"public","key":"pentecost","names":{"en":"Pentecost","sl":"binkoštna nedelja","uk":"Пʼятидесятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-06-25","kind":"public","key":"statehood_day","names":{"en":"Statehood Day","sl":"dan državnosti","uk":"День державності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-08-15","kind":"public","key":"assumption_day","names":{"en":"Assumption Day","sl":"Marijino vnebovzetje","uk":"Внебовзяття Пресвятої Діви Марії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-31","kind":"public","key":"reformation_day","names":{"en":"Reformation Day","sl":"dan reformacije","uk":"День Реформації"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-11-01","kind":"public","key":"day_of_remembrance_for_the_dead","names":{"en":"Day of Remembrance for the Dead","sl":"dan spomina na mrtve","uk":"День памʼяті померлих"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","sl":"božič","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-26","kind":"public","key":"independence_and_unity_day","names":{"en":"Independence and Unity Day","sl":"dan samostojnosti in enotnosti","uk":"День незалежності та єднання"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

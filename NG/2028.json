@@ -1,0 +1,37 @@
+{
+"schema":"offday.holidays/v1",
+"country":"NG",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":8,"uncertain":10,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:6d5a374e3ffa621028e117635db8378715ea518a8c2ac8e600d1bef2487dcaa0",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-03","kind":"observed","key":"new_years_day","names":{"en":"New Year's Day (observed)"},"source":"python-holidays","confidence":"uncertain","observes":"2028-01-01","tags":["engine_disagreement"]},
+{"date":"2028-02-27","kind":"public","key":"eid_al_fitr","names":{"en":"Id el Fitr"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-28","kind":"public","key":"eid_al_fitr_holiday","names":{"en":"Id el Fitr Holiday"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-29","kind":"observed","key":"eid_al_fitr","names":{"en":"Id el Fitr (observed)"},"source":"python-holidays","confidence":"uncertain","observes":"2028-02-27"},
+{"date":"2028-04-14","kind":"public","key":"good_friday","names":{"en":"Good Friday"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-17","kind":"public","key":"easter_monday","names":{"en":"Easter Monday"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"workers_day","names":{"en":"Workers' Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-06","kind":"public","key":"eid_al_adha","names":{"en":"Id el Kabir"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-05-07","kind":"public","key":"eid_al_adha_holiday","names":{"en":"Id el Kabir Holiday"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-05-08","kind":"observed","key":"eid_al_adha","names":{"en":"Id el Kabir (observed)"},"source":"python-holidays","confidence":"uncertain","observes":"2028-05-06"},
+{"date":"2028-05-09","kind":"observed","key":"eid_al_adha_holiday","names":{"en":"Id el Kabir Holiday (observed)"},"source":"python-holidays","confidence":"uncertain","observes":"2028-05-07"},
+{"date":"2028-06-12","kind":"public","key":"democracy_day","names":{"en":"Democracy Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-08-04","kind":"public","key":"prophets_birthday","names":{"en":"Id el Maulud"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-10-01","kind":"public","key":"national_day","names":{"en":"National Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-02","kind":"observed","key":"national_day","names":{"en":"National Day (observed)"},"source":"python-holidays","confidence":"uncertain","observes":"2028-10-01","tags":["engine_disagreement"]},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-26","kind":"public","key":"boxing_day","names":{"en":"Boxing Day"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

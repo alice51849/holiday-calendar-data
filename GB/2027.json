@@ -1,0 +1,33 @@
+{
+"schema":"offday.holidays/v1",
+"country":"GB",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":"2028-12-31",
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":0,"uncertain":0,"verified":13},"makeupWorkdays":"not_applicable","national":"verified","notes":"GOV.UK bank holidays for England & Wales, Scotland and Northern Ireland.","regional":"verified","status":"official"},
+"license":"CC-BY-4.0",
+"attribution":"Contains public sector information licensed under the Open Government Licence v3.0 (GOV.UK bank holidays). Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:2c146733dee7ebffe99c41dd7a179189420075bc3d57a25c577ee678aba26dc4",
+"dates":[
+{"date":"2027-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year’s Day","th":"วันขึ้นปีใหม่","ur":"نئے سال کا دن"},"source":"gb-govuk-bank-holidays","confidence":"verified"},
+{"date":"2027-01-04","kind":"regional","key":"2nd_january","names":{"en":"2nd January"},"source":"gb-govuk-bank-holidays","confidence":"verified","regions":["GB-SCT"],"observes":"2027-01-02","tags":["observed"]},
+{"date":"2027-03-17","kind":"regional","key":"st_patricks_day","names":{"en":"St Patrick’s Day"},"source":"gb-govuk-bank-holidays","confidence":"verified","regions":["GB-NIR"]},
+{"date":"2027-03-26","kind":"public","key":"good_friday","names":{"en":"Good Friday","th":"วันศุกร์ประเสริฐ","ur":"گڈ فرائیڈے"},"source":"gb-govuk-bank-holidays","confidence":"verified"},
+{"date":"2027-03-29","kind":"regional","key":"easter_monday","names":{"en":"Easter Monday"},"source":"gb-govuk-bank-holidays","confidence":"verified","regions":["GB-ENG","GB-NIR","GB-WLS"]},
+{"date":"2027-05-03","kind":"public","key":"early_may_bank_holiday","names":{"en":"Early May bank holiday","th":"วันเมย์เดย์","ur":"یوم مئی"},"source":"gb-govuk-bank-holidays","confidence":"verified"},
+{"date":"2027-05-31","kind":"public","key":"spring_bank_holiday","names":{"en":"Spring bank holiday","th":"วันหยุดฤดูใบไม้ผลิของธนาคาร","ur":"موسم بہار کی بینک تعطیل"},"source":"gb-govuk-bank-holidays","confidence":"verified"},
+{"date":"2027-07-12","kind":"regional","key":"battle_of_the_boyne_orangemens_day","names":{"en":"Battle of the Boyne (Orangemen’s Day)"},"source":"gb-govuk-bank-holidays","confidence":"verified","regions":["GB-NIR"]},
+{"date":"2027-08-02","kind":"regional","key":"summer_bank_holiday","names":{"en":"Summer bank holiday"},"source":"gb-govuk-bank-holidays","confidence":"verified","regions":["GB-SCT"]},
+{"date":"2027-08-30","kind":"regional","key":"summer_bank_holiday","names":{"en":"Summer bank holiday"},"source":"gb-govuk-bank-holidays","confidence":"verified","regions":["GB-ENG","GB-NIR","GB-WLS"]},
+{"date":"2027-11-30","kind":"regional","key":"st_andrews_day","names":{"en":"St Andrew’s Day"},"source":"gb-govuk-bank-holidays","confidence":"verified","regions":["GB-SCT"]},
+{"date":"2027-12-27","kind":"observed","key":"christmas_day","names":{"en":"Christmas Day","th":"ชดเชยวันคริสต์มาส","ur":"کرسمس کا دن (منایا گیا)"},"source":"gb-govuk-bank-holidays","confidence":"verified","observes":"2027-12-25"},
+{"date":"2027-12-28","kind":"observed","key":"boxing_day","names":{"en":"Boxing Day","th":"ชดเชยวันเปิดกล่องของขวัญ","ur":"باکسنگ ڈے (منایا گیا)"},"source":"gb-govuk-bank-holidays","confidence":"verified","observes":"2027-12-26"}
+],
+"sources":[
+{"id":"gb-govuk-bank-holidays","license":"OGL-UK-3.0","publisher":"GOV.UK","retrieved":"2026-10-11","sha256":"538b3482c28b85ecd2db606a0d5ae6ad17248900b6498700ce0a48d26a3ecde6","title":"UK bank holidays (GOV.UK)","url":"https://www.gov.uk/bank-holidays.json"},
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

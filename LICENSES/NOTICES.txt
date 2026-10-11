@@ -1,0 +1,40 @@
+OFFDAY holiday dataset — source status notices
+================================================
+
+The compiled dataset (out/<CC>/<YYYY>.json, out/index.json) is published under CC BY 4.0
+(see CC-BY-4.0.txt). Each data file lists the sources it uses in "sources" and the required
+attribution text in "attribution". Upstream terms:
+
+OGDL-TW-1.0  Taiwan DGPA office calendar via data.gov.tw dataset 14718 — Open Government Data
+             License, version 1.0 (OGDL-TW-1.0.txt). The DGPA announcement pages also state that
+             the calendar is 「授權各界自行下載使用」.
+TW-OFFICIAL-DOC  DGPA announcement pages (law excerpts, approval letter numbers). Statutes, orders and
+             official documents are not copyrightable in Taiwan (Copyright Act art. 9(1)(i)). Only a
+             facts extract is stored.
+JP-PDL-1.0   Japan Cabinet Office syukujitsu.csv — Cabinet Office site terms (JP-Cabinet-Office-Terms.txt)
+             apply the Public Data License 1.0 (JP-Public-Data-License-1.0.txt), compatible with CC BY 4.0.
+OGL-UK-3.0   GOV.UK bank holidays — Open Government Licence v3.0 (OGL-UK-3.0.txt).
+Etalab-2.0   France api.gouv.fr calendrier / data.gouv.fr — Licence Ouverte / Open Licence 2.0
+             (Etalab-Licence-Ouverte-2.0.fr.md, Etalab-Open-Licence-2.0.en.md).
+US-PD        U.S. OPM Federal Holidays — work of the U.S. Government, not subject to copyright in the
+             United States (17 U.S.C. 105).
+SG-ODL-1.0   Singapore MOM public holidays via data.gov.sg — Singapore Open Data Licence v1.0
+             (Singapore-Open-Data-Licence.txt).
+CN-OFFICIAL-DOC  State Council General Office notice on the 2026 holiday arrangement (国办发明电〔2025〕7号).
+             PRC Copyright Law art. 5 excludes state-organ documents of an administrative nature and
+             calendars (历法) from protection. Only a facts extract is stored.
+KR-OFFICIAL  Ministry of Personnel Management holiday-system page and KASI calendar data. Korean
+             Copyright Act art. 7 excludes statutes, notices and similar state documents; dates are facts.
+             Only facts extracts are stored.
+KOGL-1       MPM press release republished on korea.kr — Korea Open Government License Type 1
+             (attribution) for text (KOGL-Type1.txt).
+MIT-python-holidays  python-holidays (rule engine for years/countries without an official source) —
+             MIT License (python-holidays-MIT.txt); the copyright notice is reproduced as required.
+OFFDAY-STATUTE   Dates derived by OFFDAY from published statutory rules (e.g. Taiwan 紀念日及節日實施條例 for a
+             year whose DGPA calendar is not yet published; Korea 공직선거법 제34조 for the 2028 general
+             election day). Marked confidence=rule_derived or uncertain.
+
+Not used in published data: date-holidays (npm). Its holiday data is CC BY-SA 3.0 (share-alike,
+derived from Wikipedia) according to its LICENSE file, so OFFDAY uses it only as a local cross-check
+engine (tools/crosscheck) and never redistributes its output. Nager.Date's public API terms require
+sponsorship for commercial use and forbid operating a holiday portal with its data, so it is not used.

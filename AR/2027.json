@@ -1,0 +1,38 @@
+{
+"schema":"offday.holidays/v1",
+"country":"AR",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":18,"uncertain":1,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:fb3870d3845e16cc037c8209ff763372792b69a04f78a8207b2e9981f09399e4",
+"dates":[
+{"date":"2027-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","es":"Año Nuevo","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-02-08","kind":"public","key":"carnival_monday","names":{"en":"Carnival Monday","es":"Lunes de Carnaval","uk":"Карнавальний понеділок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-02-09","kind":"public","key":"carnival_tuesday","names":{"en":"Carnival Tuesday","es":"Martes de Carnaval","uk":"Карнавальний вівторок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-24","kind":"public","key":"national_day_of_remembrance_for_truth_and_justice","names":{"en":"National Day of Remembrance for Truth and Justice","es":"Día Nacional de la Memoria por la Verdad y la Justicia","uk":"Національний день памʼяті заради правди та правосуддя"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-25","kind":"public","key":"maundy_thursday","names":{"en":"Maundy Thursday","es":"Jueves Santo","uk":"Великий четвер"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2027-03-26","kind":"public","key":"good_friday","names":{"en":"Good Friday","es":"Viernes Santo","uk":"Страсна пʼятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-04-02","kind":"public","key":"veterans_day_and_the_fallen_in_the_malvinas_war","names":{"en":"Veteran's Day and the Fallen in the Malvinas War","es":"Día del Veterano y de los Caidos en la Guerra de Malvinas","uk":"День ветеранів та загиблих на Мальвінській війні"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-01","kind":"public","key":"labor_day","names":{"en":"Labor Day","es":"Día del Trabajo","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-25","kind":"public","key":"may_revolution_day","names":{"en":"May Revolution Day","es":"Día de la Revolución de Mayo","uk":"День Травневої революції"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-20","kind":"public","key":"pass_to_the_immortality_of_general_don_manuel_belgrano","names":{"en":"Pass to the Immortality of General Don Manuel Belgrano","es":"Paso a la Inmortalidad del General Don Manuel Belgrano","uk":"День памʼяті генерала Мануеля Бельграно"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-21","kind":"observed","key":"pass_to_the_immortality_of_general_don_martin_miguel_de_guemes","names":{"en":"Pass to the Immortality of General Don Martín Miguel de Güemes","es":"Paso a la Inmortalidad del General Don Martín Miguel de Güemes","uk":"День памʼяті генерала Мартіна Мігеля де Гуемеса"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-27","kind":"optional","key":"state_workers_day","names":{"en":"State Worker's Day","es":"Día del Trabajador del Estado"},"source":"python-holidays","confidence":"rule_derived","tags":["government"]},
+{"date":"2027-07-09","kind":"public","key":"independence_day","names":{"en":"Independence Day","es":"Día de la Independencia","uk":"День незалежності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-08-16","kind":"observed","key":"pass_to_the_immortality_of_general_don_jose_de_san_martin","names":{"en":"Pass to the Immortality of General Don José de San Martín","es":"Paso a la Inmortalidad del General Don José de San Martín","uk":"День памʼяті генерала Хосе де Сан-Мартіна"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-10-11","kind":"observed","key":"respect_for_cultural_diversity_day","names":{"en":"Respect for Cultural Diversity Day","es":"Día del Respeto a la Diversidad Cultural","uk":"День поваги до культурного різноманіття"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-11-06","kind":"optional","key":"bankers_day","names":{"en":"Bankers' Day","es":"Día del Bancario"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]},
+{"date":"2027-11-20","kind":"public","key":"national_sovereignty_day","names":{"en":"National Sovereignty Day","es":"Día de la Soberanía Nacional","uk":"День національного суверенітету"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-08","kind":"public","key":"immaculate_conception","names":{"en":"Immaculate Conception","es":"Inmaculada Concepción de María","uk":"Непорочне зачаття Діви Марії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","es":"Navidad","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

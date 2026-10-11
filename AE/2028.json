@@ -1,0 +1,31 @@
+{
+"schema":"offday.holidays/v1",
+"country":"AE",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":3,"uncertain":9,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:8cfc0b04f0859479600a5fa813ce61378a1026c90e6a2671c599fbca625a9545",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"ar":"رأس السنة الميلادية","en":"New Year's Day","th":"วันขึ้นปีใหม่"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-02-26","kind":"public","key":"eid_al_fitr","names":{"ar":"عيد الفطر","en":"Eid al-Fitr","th":"วันอีฎิ้ลฟิตริ"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-27","kind":"public","key":"eid_al_fitr_holiday","names":{"ar":"عطلة عيد الفطر","en":"Eid al-Fitr Holiday","th":"เทศกาลอีฎิ้ลฟิตริ"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-28","kind":"public","key":"eid_al_fitr_holiday","names":{"ar":"عطلة عيد الفطر","en":"Eid al-Fitr Holiday","th":"เทศกาลอีฎิ้ลฟิตริ"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-05-04","kind":"public","key":"day_of_arafah","names":{"ar":"وقفة عرفة","en":"Day of Arafah","th":"วันอารอฟะห์"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-05-05","kind":"public","key":"eid_al_adha","names":{"ar":"عيد الأضحى","en":"Eid al-Adha","th":"วันอีดิ้ลอัฎฮา"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-05-06","kind":"public","key":"eid_al_adha_holiday","names":{"ar":"عطلة عيد الأضحى","en":"Eid al-Adha Holiday","th":"เทศกาลอีดิ้ลอัฎฮา"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-05-07","kind":"public","key":"eid_al_adha_holiday","names":{"ar":"عطلة عيد الأضحى","en":"Eid al-Adha Holiday","th":"เทศกาลอีดิ้ลอัฎฮา"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-05-25","kind":"public","key":"islamic_new_year","names":{"ar":"رأس السنة الهجرية","en":"Islamic New Year","th":"วันขึ้นปีใหม่อิสลาม"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-08-03","kind":"public","key":"prophets_birthday","names":{"ar":"عيد المولد النبوي","en":"Prophet's Birthday","th":"วันเมาลิดนบี"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-12-02","kind":"public","key":"national_day","names":{"ar":"اليوم الوطني","en":"National Day","th":"วันชาติสหรัฐอาหรับเอมิเรตส์"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-03","kind":"public","key":"national_day","names":{"ar":"اليوم الوطني","en":"National Day","th":"วันชาติสหรัฐอาหรับเอมิเรตส์"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

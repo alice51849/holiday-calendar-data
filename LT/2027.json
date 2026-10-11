@@ -1,0 +1,35 @@
+{
+"schema":"offday.holidays/v1",
+"country":"LT",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":16,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:780de28479b0a8abd7fa37ce6fb88e53df9ead725c9658e31719aca5a1244b9c",
+"dates":[
+{"date":"2027-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","lt":"Naujųjų metų diena","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-02-16","kind":"public","key":"day_of_restoration_of_the_state_of_lithuania","names":{"en":"Day of Restoration of the State of Lithuania","lt":"Lietuvos valstybės atkūrimo diena","uk":"День відновлення Литовської держави"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-11","kind":"public","key":"day_of_restoration_of_independence_of_lithuania","names":{"en":"Day of Restoration of Independence of Lithuania","lt":"Lietuvos nepriklausomybės atkūrimo diena","uk":"День відновлення незалежності Литви"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-28","kind":"public","key":"easter_sunday","names":{"en":"Easter Sunday","lt":"Šv. Velykos","uk":"Великдень"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-29","kind":"public","key":"easter_monday","names":{"en":"Easter Monday","lt":"Antroji šv. Velykų diena","uk":"Великодній понеділок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-01","kind":"public","key":"international_workers_day","names":{"en":"International Workers' Day","lt":"Tarptautinė darbo diena","uk":"Міжнародний день трудящих"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-02","kind":"public","key":"mothers_day","names":{"en":"Mother's Day","lt":"Motinos diena","uk":"День матері"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-06","kind":"public","key":"fathers_day","names":{"en":"Father's Day","lt":"Tėvo diena","uk":"День батька"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-24","kind":"public","key":"day_of_dew_and_saint_john","names":{"en":"Day of Dew and Saint John","lt":"Rasos ir Joninių diena","uk":"День роси та День Івана Купала"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-07-06","kind":"public","key":"statehood_day","names":{"en":"Statehood Day","lt":"Valstybės (Lietuvos karaliaus Mindaugo karūnavimo) ir Tautiškos giesmės diena","uk":"День державності та День національного гімну"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-08-15","kind":"public","key":"assumption_day","names":{"en":"Assumption Day","lt":"Žolinė (Švč. Mergelės Marijos ėmimo į dangų diena)","uk":"Внебовзяття Пресвятої Діви Марії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-11-01","kind":"public","key":"all_saints_day","names":{"en":"All Saints' Day","lt":"Visų Šventųjų diena","uk":"День усіх святих"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-11-02","kind":"public","key":"all_souls_day","names":{"en":"All Souls' Day","lt":"Mirusiųjų atminimo (Vėlinių) diena","uk":"День памʼяті (День всіх померлих)"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-24","kind":"public","key":"christmas_eve","names":{"en":"Christmas Eve","lt":"Kūčių diena","uk":"Святий вечір"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","lt":"Šv. Kalėdų pirma diena","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-26","kind":"public","key":"second_day_of_christmas","names":{"en":"Second Day of Christmas","lt":"Šv. Kalėdų antra diena","uk":"Другий день Різдва"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

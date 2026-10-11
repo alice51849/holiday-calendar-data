@@ -1,0 +1,31 @@
+{
+"schema":"offday.holidays/v1",
+"country":"SG",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":"2027-12-31",
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":6,"uncertain":6,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"MOM usually announces next year's holidays mid-year; Hari Raya / Deepavali / Vesak dates are estimates until then.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:b95c2b99df6821d36e3bee9b735fb23f21b5a44bb21b3becaa57d96023290346",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","th":"วันขึ้นปีใหม่"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-26","kind":"public","key":"chinese_new_year","names":{"en":"Chinese New Year","th":"วันตรุษจีน"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-01-27","kind":"public","key":"chinese_new_year","names":{"en":"Chinese New Year","th":"วันตรุษจีน"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-27","kind":"public","key":"eid_al_fitr","names":{"en":"Hari Raya Puasa","th":"วันอีฎิ้ลฟิตริ"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-28","kind":"observed","key":"eid_al_fitr","names":{"en":"Hari Raya Puasa (observed)","th":"ชดเชยวันอีฎิ้ลฟิตริ"},"source":"python-holidays","confidence":"uncertain","observes":"2028-02-27"},
+{"date":"2028-04-14","kind":"public","key":"good_friday","names":{"en":"Good Friday","th":"วันศุกร์ประเสริฐ"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"labor_day","names":{"en":"Labour Day","th":"วันแรงงาน"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-05","kind":"public","key":"eid_al_adha","names":{"en":"Hari Raya Haji","th":"วันอีดิ้ลอัฎฮา"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-05-09","kind":"public","key":"vesak_day","names":{"en":"Vesak Day","th":"วันวิสาขบูชา"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-08-09","kind":"public","key":"national_day","names":{"en":"National Day","th":"วันชาติสิงคโปร์"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-11-15","kind":"public","key":"diwali","names":{"en":"Deepavali","th":"วันดีปาวลี"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","th":"วันคริสต์มาส"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

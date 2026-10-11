@@ -1,0 +1,36 @@
+{
+"schema":"offday.holidays/v1",
+"country":"RO",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":17,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:b839d87310397a4dd7c1d7f1896e763e082dc12cea9f6923b5cc865397d27e82",
+"dates":[
+{"date":"2027-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","ro":"Anul Nou","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-01-02","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","ro":"Anul Nou","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-01-06","kind":"public","key":"epiphany","names":{"en":"Epiphany","ro":"Botezul Domnului - Boboteaza","uk":"Богоявлення"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-01-07","kind":"public","key":"saint_john_the_baptist","names":{"en":"Saint John the Baptist","ro":"Soborul Sfântului Proroc Ioan Botezătorul","uk":"День Івана Хрестителя"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-01-24","kind":"public","key":"unification_of_the_romanian_principalities_day","names":{"en":"Unification of the Romanian Principalities Day","ro":"Ziua Unirii Principatelor Române","uk":"День обʼєднання Дунайських князівств"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-04-30","kind":"public","key":"good_friday","names":{"en":"Good Friday","ro":"Vinerea Mare","uk":"Страсна пʼятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-01","kind":"public","key":"labor_day","names":{"en":"Labor Day","ro":"Ziua Muncii","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-02","kind":"public","key":"easter","names":{"en":"Easter","ro":"Paștele","uk":"Великдень"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-03","kind":"public","key":"easter","names":{"en":"Easter","ro":"Paștele","uk":"Великдень"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-01","kind":"public","key":"childrens_day","names":{"en":"Children's Day","ro":"Ziua Copilului","uk":"День захисту дітей"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-20","kind":"public","key":"pentecost","names":{"en":"Pentecost","ro":"Rusaliile","uk":"Пʼятидесятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-21","kind":"public","key":"pentecost","names":{"en":"Pentecost","ro":"Rusaliile","uk":"Пʼятидесятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-08-15","kind":"public","key":"dormition_of_the_mother_of_god","names":{"en":"Dormition of the Mother of God","ro":"Adormirea Maicii Domnului","uk":"Успіння Пресвятої Богородиці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-11-30","kind":"public","key":"saint_andrews_day","names":{"en":"Saint Andrew's Day","ro":"Sfântul Apostol Andrei, cel Întâi chemat, Ocrotitorul României","uk":"День Святого Андрія Первозваного, захисника Румунії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-01","kind":"public","key":"national_day","names":{"en":"National Day","ro":"Ziua Națională a României","uk":"Національний день Румунії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","ro":"Crăciunul","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-26","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","ro":"Crăciunul","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

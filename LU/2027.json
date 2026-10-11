@@ -1,0 +1,33 @@
+{
+"schema":"offday.holidays/v1",
+"country":"LU",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":14,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:d47c64aac96f7b8db052591f2c4478339362ae6c098b1de73a77be7fc34a6aca",
+"dates":[
+{"date":"2027-01-01","kind":"public","key":"new_years_day","names":{"de":"Neujahr","en":"New Year's Day","fr":"Jour de l'An","lb":"Neijoerschdag","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-03-26","kind":"optional","key":"good_friday","names":{"en":"Good Friday","lb":"Karfreideg"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]},
+{"date":"2027-03-29","kind":"public","key":"easter_monday","names":{"de":"Ostermontag","en":"Easter Monday","fr":"Lundi de Pâques","lb":"Ouschterméindeg","uk":"Великодній понеділок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-01","kind":"public","key":"labor_day","names":{"de":"Tag der Arbeit","en":"Labor Day","fr":"Fête du Travail","lb":"Dag vun der Aarbecht","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-06","kind":"public","key":"ascension_day","names":{"de":"Christi Himmelfahrt","en":"Ascension Day","fr":"Ascension","lb":"Christi Himmelfaart","uk":"Вознесіння Господнє"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-09","kind":"public","key":"europe_day","names":{"de":"Europatag","en":"Europe Day","fr":"Jour de l'Europe","lb":"Europadag","uk":"День Європи"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-17","kind":"public","key":"pentecost_monday","names":{"de":"Pfingstmontag","en":"Pentecost Monday","fr":"Lundi de Pentecôte","lb":"Péngschtméindeg","uk":"Другий день Пʼятидесятниці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-23","kind":"public","key":"national_day","names":{"de":"Nationalfeiertag","en":"National Day","fr":"Fête nationale","lb":"Nationalfeierdag","uk":"Національне свято"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-08-15","kind":"public","key":"assumption_day","names":{"de":"Mariä Himmelfahrt","en":"Assumption Day","fr":"Assomption","lb":"Léiffrawëschdag","uk":"Внебовзяття Пресвятої Діви Марії"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-11-01","kind":"public","key":"all_saints_day","names":{"de":"Allerheiligen","en":"All Saints' Day","fr":"Toussaint","lb":"Allerhellgen","uk":"День усіх святих"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-24","kind":"optional","key":"christmas_eve_afternoon","names":{"en":"Christmas Eve (afternoon)","lb":"Hellegowend (nomëtteg)"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]},
+{"date":"2027-12-25","kind":"public","key":"christmas_day","names":{"de":"Weihnachten","en":"Christmas Day","fr":"Noël","lb":"Chrëschtdag","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-26","kind":"public","key":"saint_stephens_day","names":{"de":"Zweiter Weihnachtsfeiertag","en":"Saint Stephen's Day","fr":"Saint-Étienne","lb":"Stiefesdag","uk":"День Святого Стефана"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-12-31","kind":"optional","key":"new_years_eve","names":{"en":"New Year's Eve","lb":"Silvester"},"source":"python-holidays","confidence":"rule_derived","tags":["bank"]}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

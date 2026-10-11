@@ -1,0 +1,43 @@
+{
+"schema":"offday.holidays/v1",
+"country":"IL",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[5,6],
+"coverage":{"counts":{"rule_derived":24,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:77681a91192e23669504903187733503238d6dc74a8802b1153889474648e7fd",
+"dates":[
+{"date":"2027-03-23","kind":"optional","key":"purim","names":{"en":"Purim","he":"פורים"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-04-22","kind":"public","key":"pesach","names":{"en":"Pesach","he":"פסח","th":"วันเพสสะห์","uk":"Песах"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-04-23","kind":"optional","key":"pesach_holiday","names":{"en":"Pesach holiday","he":"חול המועד פסח"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-04-24","kind":"optional","key":"pesach_holiday","names":{"en":"Pesach holiday","he":"חול המועד פסח"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-04-25","kind":"optional","key":"pesach_holiday","names":{"en":"Pesach holiday","he":"חול המועד פסח"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-04-26","kind":"optional","key":"pesach_holiday","names":{"en":"Pesach holiday","he":"חול המועד פסח"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-04-27","kind":"optional","key":"pesach_holiday","names":{"en":"Pesach holiday","he":"חול המועד פסח"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-04-28","kind":"public","key":"seventh_day_of_pesach","names":{"en":"Seventh day of Pesach","he":"שביעי של פסח","th":"วันเพสสะห์วันที่เจ็ด","uk":"Сьомий день Песаха"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-11","kind":"optional","key":"remembrance_day","names":{"en":"Remembrance Day","he":"יום הזיכרון לחללי מערכות ישראל ונפגעי פעולות האיבה"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-05-12","kind":"public","key":"independence_day","names":{"en":"Independence Day","he":"יום העצמאות","th":"วันชาติอิสราเอล","uk":"День незалежності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-06-04","kind":"optional","key":"jerusalem_day","names":{"en":"Jerusalem Day","he":"יום ירושלים"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-06-11","kind":"public","key":"shavuot","names":{"en":"Shavuot","he":"שבועות","th":"วันชาวูโอท","uk":"Шавуот"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-08-12","kind":"optional","key":"tisha_bav","names":{"en":"Tisha B'Av","he":"תשעה באב"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-10-02","kind":"public","key":"rosh_hashanah","names":{"en":"Rosh Hashanah","he":"ראש השנה","th":"เทศกาลรอช ฮาชานาห์ (วันปีใหม่ยิว)","uk":"Рош га-Шана"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-10-03","kind":"public","key":"rosh_hashanah","names":{"en":"Rosh Hashanah","he":"ראש השנה","th":"เทศกาลรอช ฮาชานาห์ (วันปีใหม่ยิว)","uk":"Рош га-Шана"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-10-11","kind":"public","key":"yom_kippur","names":{"en":"Yom Kippur","he":"יום כיפור","th":"วันยม คิปปูร์","uk":"Йом Кіпур"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-10-16","kind":"public","key":"sukkot","names":{"en":"Sukkot","he":"סוכות","th":"วันสุคคต","uk":"Суккот"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-10-17","kind":"optional","key":"sukkot_holiday","names":{"en":"Sukkot holiday","he":"חול המועד סוכות"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-10-18","kind":"optional","key":"sukkot_holiday","names":{"en":"Sukkot holiday","he":"חול המועד סוכות"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-10-19","kind":"optional","key":"sukkot_holiday","names":{"en":"Sukkot holiday","he":"חול המועד סוכות"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-10-20","kind":"optional","key":"sukkot_holiday","names":{"en":"Sukkot holiday","he":"חול המועד סוכות"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-10-21","kind":"optional","key":"sukkot_holiday","names":{"en":"Sukkot holiday","he":"חול המועד סוכות"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2027-10-23","kind":"public","key":"simchat_torah_shemini_atzeret","names":{"en":"Simchat Torah / Shemini Atzeret","he":"שמחת תורה/שמיני עצרת","th":"วันซิมหัต โทราห์/วันเชมินี อัตเซเรต","uk":"Сімхат Тора / Шміні Ацерет"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-11-29","kind":"optional","key":"sigd","names":{"en":"Sigd","he":"סיגד"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

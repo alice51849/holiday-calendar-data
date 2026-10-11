@@ -1,0 +1,40 @@
+{
+"schema":"offday.holidays/v1",
+"country":"HK",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[7],
+"coverage":{"counts":{"rule_derived":21,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:5d9e14a23d9b1c24229e7e34fec54ba7d7099cd87654d80ab0e2726537bb155b",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","th":"วันขึ้นปีใหม่","zh-Hans":"一月一日","zh-Hant":"一月一日"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-26","kind":"public","key":"chinese_new_year","names":{"en":"Chinese New Year","th":"วันตรุษจีน","zh-Hans":"农历年初一","zh-Hant":"農曆年初一"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-27","kind":"public","key":"the_second_day_of_chinese_new_year","names":{"en":"The second day of Chinese New Year","th":"วันตรุษจีนวันที่สอง","zh-Hans":"农历年初二","zh-Hant":"農曆年初二"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-28","kind":"public","key":"the_third_day_of_chinese_new_year","names":{"en":"The third day of Chinese New Year","th":"วันตรุษจีนวันที่สาม","zh-Hans":"农历年初三","zh-Hant":"農曆年初三"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-04","kind":"public","key":"tomb_sweeping_day","names":{"en":"Tomb-Sweeping Day","th":"วันเช็งเม้ง","zh-Hans":"清明节","zh-Hant":"清明節"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-14","kind":"public","key":"good_friday","names":{"en":"Good Friday","th":"วันศุกร์ประเสริฐ","zh-Hans":"耶稣受难节","zh-Hant":"耶穌受難節"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-15","kind":"optional","key":"the_day_following_good_friday","names":{"en":"The day following Good Friday","zh-Hant":"耶穌受難節翌日"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2028-04-17","kind":"public","key":"easter_monday","names":{"en":"Easter Monday","th":"วันจันทร์อีสเตอร์","zh-Hans":"复活节星期一","zh-Hant":"復活節星期一"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"labor_day","names":{"en":"Labor Day","th":"วันแรงงาน","zh-Hans":"劳动节","zh-Hant":"勞動節"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-02","kind":"public","key":"the_buddhas_birthday","names":{"en":"The Buddha's Birthday","th":"วันวิสาขบูชา","zh-Hans":"佛诞","zh-Hant":"佛誕"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-28","kind":"public","key":"dragon_boat_festival","names":{"en":"Dragon Boat Festival","th":"วันไหว้บ๊ะจ่าง","zh-Hans":"端午节","zh-Hant":"端午節"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-29","kind":"observed","key":"dragon_boat_festival","names":{"en":"Dragon Boat Festival (observed)","th":"ชดเชยวันไหว้บ๊ะจ่าง","zh-Hans":"端午节（补假）","zh-Hant":"端午節（補假）"},"source":"python-holidays","confidence":"rule_derived","observes":"2028-05-28"},
+{"date":"2028-05-29","kind":"optional","key":"the_day_following_dragon_boat_festival","names":{"en":"The day following Dragon Boat Festival","zh-Hant":"端午節翌日"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2028-07-01","kind":"public","key":"hong_kong_s_a_r_establishment_day","names":{"en":"Hong Kong S.A.R. Establishment Day","th":"วันสถาปนาเขตบริหารพิเศษฮ่องกง","zh-Hans":"香港特别行政区成立纪念日","zh-Hant":"香港特別行政區成立紀念日"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-01","kind":"public","key":"national_day","names":{"en":"National Day","th":"วันชาติจีน","zh-Hans":"国庆日","zh-Hant":"國慶日"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-02","kind":"observed","key":"national_day","names":{"en":"National Day (observed)","th":"ชดเชยวันชาติจีน","zh-Hans":"国庆日（补假）","zh-Hant":"國慶日（補假）"},"source":"python-holidays","confidence":"rule_derived","observes":"2028-10-01"},
+{"date":"2028-10-02","kind":"optional","key":"the_day_following_national_day","names":{"en":"The day following National Day","zh-Hant":"國慶日翌日"},"source":"python-holidays","confidence":"rule_derived","tags":["optional"]},
+{"date":"2028-10-04","kind":"public","key":"the_day_following_mid_autumn_festival","names":{"en":"The Day following Mid-Autumn Festival","th":"วันหลังวันไหว้พระจันทร์","zh-Hans":"中秋节翌日","zh-Hant":"中秋節翌日"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-10-26","kind":"public","key":"double_ninth_festival","names":{"en":"Double Ninth Festival","th":"วันไหว้บรรพบุรุษ","zh-Hans":"重阳节","zh-Hant":"重陽節"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","th":"วันคริสต์มาส","zh-Hans":"圣诞节","zh-Hant":"聖誕節"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-26","kind":"public","key":"the_first_weekday_after_christmas_day","names":{"en":"The first weekday after Christmas Day","th":"วันหลังวันคริสต์มาส","zh-Hans":"圣诞节后第一个周日","zh-Hant":"聖誕節後第一個周日"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

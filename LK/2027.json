@@ -1,0 +1,20 @@
+{
+"schema":"offday.holidays/v1",
+"country":"LK",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":0,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"none","notes":"Sri Lanka's holidays (incl. Poya days) are gazetted annually; the rule engine covers up to 2026. Year unavailable until gazetted.","regional":"none","status":"unavailable"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+"dates":[
+
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

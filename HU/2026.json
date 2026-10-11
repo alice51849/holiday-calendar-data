@@ -1,0 +1,38 @@
+{
+"schema":"offday.holidays/v1",
+"country":"HU",
+"region":null,
+"year":2026,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":16,"uncertain":3,"verified":0},"makeupWorkdays":"rule_derived","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:cc130e21adaaaae05bf43d91adfde4258501461a5c16a285ca2a2f81588304fa",
+"dates":[
+{"date":"2026-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","hu":"Újév","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-01-02","kind":"bridge","key":"day_off_substituted","names":{"en":"Day off (substituted from 01/10/2026)","hu":"Pihenőnap (2026. 01. 10.-től helyettesítve)","uk":"Вихідний день (перенесено з 10.01.2026)"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2026-01-10","kind":"makeup_workday","key":"makeup_workday","names":{"en":"Make-up working day"},"source":"python-holidays","confidence":"rule_derived","observes":"2026-01-02"},
+{"date":"2026-03-15","kind":"public","key":"national_day","names":{"en":"National Day","hu":"Nemzeti ünnep","uk":"Національне свято"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-04-03","kind":"public","key":"good_friday","names":{"en":"Good Friday","hu":"Nagypéntek","uk":"Страсна пʼятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-04-05","kind":"public","key":"easter","names":{"en":"Easter","hu":"Húsvét","uk":"Великдень"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-04-06","kind":"public","key":"easter_monday","names":{"en":"Easter Monday","hu":"Húsvét Hétfő","uk":"Великодній понеділок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-05-01","kind":"public","key":"labor_day","names":{"en":"Labor Day","hu":"A Munka ünnepe","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-05-24","kind":"public","key":"pentecost","names":{"en":"Pentecost","hu":"Pünkösd","uk":"Пʼятидесятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-05-25","kind":"public","key":"pentecost_monday","names":{"en":"Pentecost Monday","hu":"Pünkösdhétfő","uk":"Другий день Пʼятидесятниці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-08-08","kind":"makeup_workday","key":"makeup_workday","names":{"en":"Make-up working day"},"source":"python-holidays","confidence":"rule_derived","observes":"2026-08-21"},
+{"date":"2026-08-20","kind":"public","key":"state_foundation_day","names":{"en":"State Foundation Day","hu":"Az államalapítás ünnepe","uk":"День заснування держави"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-08-21","kind":"bridge","key":"day_off_substituted","names":{"en":"Day off (substituted from 08/08/2026)","hu":"Pihenőnap (2026. 08. 08.-től helyettesítve)","uk":"Вихідний день (перенесено з 08.08.2026)"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2026-10-23","kind":"public","key":"national_day","names":{"en":"National Day","hu":"Nemzeti ünnep","uk":"Національне свято"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-11-01","kind":"public","key":"all_saints_day","names":{"en":"All Saints' Day","hu":"Mindenszentek","uk":"День усіх святих"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-12-12","kind":"makeup_workday","key":"makeup_workday","names":{"en":"Make-up working day"},"source":"python-holidays","confidence":"rule_derived","observes":"2026-12-24"},
+{"date":"2026-12-24","kind":"bridge","key":"day_off_substituted","names":{"en":"Day off (substituted from 12/12/2026)","hu":"Pihenőnap (2026. 12. 12.-től helyettesítve)","uk":"Вихідний день (перенесено з 12.12.2026)"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2026-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","hu":"Karácsony","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-12-26","kind":"public","key":"second_day_of_christmas","names":{"en":"Second Day of Christmas","hu":"Karácsony másnapja","uk":"Другий день Різдва"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

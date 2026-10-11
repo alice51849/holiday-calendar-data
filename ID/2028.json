@@ -1,0 +1,36 @@
+{
+"schema":"offday.holidays/v1",
+"country":"ID",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":9,"uncertain":8,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:b943162624ef78d16bf08335aa9a6bb20064bc1fd996851677624c58c34c5d5d",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","id":"Tahun Baru Masehi","th":"วันขึ้นปีใหม่","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-01-26","kind":"public","key":"lunar_new_year","names":{"en":"Lunar New Year","id":"Tahun Baru Imlek","th":"วันตรุษจีน","uk":"Китайський Новий рік"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-27","kind":"public","key":"eid_al_fitr","names":{"en":"Eid al-Fitr","id":"Hari Raya Idul Fitri","th":"วันอีฎิ้ลฟิตริ","uk":"Рамазан-байрам"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-02-28","kind":"public","key":"eid_al_fitr_second_day","names":{"en":"Eid al-Fitr Second Day","id":"Hari kedua dari Hari Raya Idul Fitri","th":"วันอีฎิ้ลฟิตริวันที่สอง","uk":"Другий день Рамазан-байрам"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-03-26","kind":"public","key":"day_of_silence","names":{"en":"Day of Silence","id":"Hari Suci Nyepi","th":"วันแห่งความเงียบ","uk":"День тиші"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-14","kind":"public","key":"good_friday","names":{"en":"Good Friday","id":"Wafat Yesus Kristus","th":"วันศุกร์ประเสริฐ","uk":"Страсна пʼятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-04-16","kind":"public","key":"easter_sunday","names":{"en":"Easter Sunday","id":"Kebangkitan Yesus Kristus","th":"วันอาทิตย์อีสเตอร์","uk":"Великдень"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"international_labor_day","names":{"en":"International Labor Day","id":"Hari Buruh Internasional","th":"วันแรงงานสากล","uk":"Міжнародний день праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-05","kind":"public","key":"eid_al_adha","names":{"en":"Eid al-Adha","id":"Hari Raya Idul Adha","th":"วันอีดิ้ลอัฎฮา","uk":"Курбан-байрам"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-05-09","kind":"public","key":"vesak_day","names":{"en":"Vesak Day","id":"Hari Raya Waisak","th":"วันวิสาขบูชา","uk":"День народження Будди"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-05-25","kind":"public","key":"ascension_day","names":{"en":"Ascension Day","id":"Kenaikan Yesus Kristus","th":"วันสมโภชพระเยซูเจ้าเสด็จขึ้นสวรรค์","uk":"Вознесіння Господнє"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-05-26","kind":"public","key":"islamic_new_year","names":{"en":"Islamic New Year","id":"Tahun Baru Islam","th":"วันขึ้นปีใหม่อิสลาม","uk":"Ісламський Новий рік"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-06-01","kind":"public","key":"pancasila_day","names":{"en":"Pancasila Day","id":"Hari Lahir Pancasila","th":"วันปัญจศีล","uk":"День Панчасіла"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-08-04","kind":"public","key":"prophets_birthday","names":{"en":"Prophet's Birthday","id":"Maulid Nabi Muhammad","th":"วันเมาลิดนบี","uk":"День народження пророка Мухаммада"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-08-17","kind":"public","key":"independence_day","names":{"en":"Independence Day","id":"Hari Kemerdekaan Republik Indonesia","th":"วันประกาศอิสรภาพสาธารณรัฐอินโดนีเซีย","uk":"День незалежності Республіки Індонезія"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2028-12-14","kind":"public","key":"isra_and_miraj","names":{"en":"Isra' and Mi'raj","id":"Isra Mikraj Nabi Muhammad","th":"วันเมี๊ยะราจ","uk":"Вознесіння пророка Мухаммада"},"source":"python-holidays","confidence":"uncertain"},
+{"date":"2028-12-25","kind":"public","key":"christmas_day","names":{"en":"Christmas Day","id":"Hari Raya Natal","th":"วันคริสต์มาส","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

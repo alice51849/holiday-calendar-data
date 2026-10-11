@@ -1,0 +1,31 @@
+{
+"schema":"offday.holidays/v1",
+"country":"GR",
+"region":null,
+"year":2026,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":12,"uncertain":0,"verified":0},"makeupWorkdays":"not_applicable","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:c12c17f449ef7fee593fc09b267898c29b588fd25b0c885a0e03918961778141",
+"dates":[
+{"date":"2026-01-01","kind":"public","key":"new_years_day","names":{"el":"Πρωτοχρονιά","en":"New Year's Day","uk":"Новий рік"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-01-06","kind":"public","key":"epiphany","names":{"el":"Θεοφάνεια","en":"Epiphany","uk":"Богоявлення"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-02-23","kind":"public","key":"green_monday","names":{"el":"Καθαρά Δευτέρα","en":"Green Monday","uk":"Чистий понеділок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-03-25","kind":"public","key":"independence_day","names":{"el":"Εικοστή Πέμπτη Μαρτίου","en":"Independence Day","uk":"День незалежності"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-04-10","kind":"public","key":"good_friday","names":{"el":"Μεγάλη Παρασκευή","en":"Good Friday","uk":"Страсна пʼятниця"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-04-13","kind":"public","key":"easter_monday","names":{"el":"Δευτέρα του Πάσχα","en":"Easter Monday","uk":"Великодній понеділок"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-05-01","kind":"public","key":"labor_day","names":{"el":"Εργατική Πρωτομαγιά","en":"Labor Day","uk":"День праці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-06-01","kind":"public","key":"pentecost_monday","names":{"el":"Δευτέρα του Αγίου Πνεύματος","en":"Pentecost Monday","uk":"Другий день Пʼятидесятниці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-08-15","kind":"public","key":"dormition_of_the_mother_of_god","names":{"el":"Κοίμηση της Θεοτόκου","en":"Dormition of the Mother of God","uk":"Успіння Пресвятої Богородиці"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-10-28","kind":"public","key":"ohi_day","names":{"el":"Ημέρα του Όχι","en":"Ohi Day","uk":"День Охі"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-12-25","kind":"public","key":"christmas_day","names":{"el":"Χριστούγεννα","en":"Christmas Day","uk":"Різдво Христове"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2026-12-26","kind":"public","key":"glorifying_mother_of_god","names":{"el":"Σύναξη της Υπεραγίας Θεοτόκου","en":"Glorifying Mother of God","uk":"Собор Пресвятої Богородиці"},"source":"python-holidays","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}

@@ -1,0 +1,36 @@
+{
+"schema":"offday.holidays/v1",
+"country":"TW",
+"region":null,
+"year":2028,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":"2027-12-31",
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":17,"uncertain":0,"verified":0},"makeupWorkdays":"unknown","national":"rule_derived","notes":"DGPA has not published this year's calendar yet (要點五: by 06-30 of the previous year). Statutory days are rule-derived; LNY-related 補假 placement is uncertain; 調整放假/補行上班 unknown.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Derived by OFFDAY from published statutory rules (see Docs/research/02_holiday_data.md).",
+"contentHash":"sha256:9e8c55136425971853f61f4da977d134b4a6bc744bf16edcc0775efaaf6114ee",
+"dates":[
+{"date":"2028-01-01","kind":"public","key":"founding_day","names":{"en":"Founding Day of the Republic of China","zh-Hans":"开国纪念日","zh-Hant":"開國紀念日"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-01-24","kind":"public","key":"lunar_new_years_eve_eve","names":{"en":"Day before Lunar New Year's Eve","zh-Hans":"小年夜","zh-Hant":"小年夜"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-01-25","kind":"public","key":"lunar_new_years_eve","names":{"en":"Lunar New Year's Eve","zh-Hans":"农历除夕","zh-Hant":"農曆除夕"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-01-26","kind":"public","key":"lunar_new_year","names":{"en":"Lunar New Year","zh-Hans":"春节","zh-Hant":"春節"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-01-27","kind":"public","key":"lunar_new_year","names":{"en":"Lunar New Year","zh-Hans":"春节","zh-Hant":"春節"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-01-28","kind":"public","key":"lunar_new_year","names":{"en":"Lunar New Year","zh-Hans":"春节","zh-Hant":"春節"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-02-28","kind":"public","key":"peace_memorial_day","names":{"en":"Peace Memorial Day","zh-Hans":"和平纪念日","zh-Hant":"和平紀念日"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-04-03","kind":"public","key":"childrens_day","names":{"en":"Children's Day","zh-Hans":"儿童节","zh-Hant":"兒童節"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-04-04","kind":"public","key":"tomb_sweeping_day","names":{"en":"Tomb Sweeping Day","zh-Hans":"清明节","zh-Hant":"清明節"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-05-01","kind":"public","key":"labor_day","names":{"en":"Labor Day","zh-Hans":"劳动节","zh-Hant":"勞動節"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-05-28","kind":"public","key":"dragon_boat_festival","names":{"en":"Dragon Boat Festival","zh-Hans":"端午节","zh-Hant":"端午節"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-05-29","kind":"substitute","key":"dragon_boat_festival","names":{"en":"Substitute holiday","zh-Hans":"补假","zh-Hant":"補假"},"source":"offday-statute","confidence":"rule_derived","observes":"2028-05-28"},
+{"date":"2028-09-28","kind":"public","key":"teachers_day","names":{"en":"Confucius' Birthday / Teachers' Day","zh-Hans":"孔子诞辰纪念日/教师节","zh-Hant":"孔子誕辰紀念日/教師節"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-10-03","kind":"public","key":"mid_autumn_festival","names":{"en":"Mid-Autumn Festival","zh-Hans":"中秋节","zh-Hant":"中秋節"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-10-10","kind":"public","key":"national_day","names":{"en":"National Day","zh-Hans":"国庆日","zh-Hant":"國慶日"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-10-25","kind":"public","key":"retrocession_day","names":{"en":"Taiwan Retrocession and Kinmen Guningtou Victory Memorial Day","zh-Hans":"台湾光复暨金门古宁头大捷纪念日","zh-Hant":"臺灣光復暨金門古寧頭大捷紀念日"},"source":"offday-statute","confidence":"rule_derived"},
+{"date":"2028-12-25","kind":"public","key":"constitution_day","names":{"en":"Constitution Day","zh-Hans":"行宪纪念日","zh-Hant":"行憲紀念日"},"source":"offday-statute","confidence":"rule_derived"}
+],
+"sources":[
+{"id":"offday-statute","license":"OFFDAY-STATUTE","publisher":"OFFDAY","retrieved":null,"sha256":null,"title":"OFFDAY statute-rule derivation","url":null}
+]
+}

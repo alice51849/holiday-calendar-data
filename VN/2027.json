@@ -1,0 +1,33 @@
+{
+"schema":"offday.holidays/v1",
+"country":"VN",
+"region":null,
+"year":2027,
+"datasetVersion":"2026.10.11",
+"generatedAt":"2026-10-11T00:00:00Z",
+"validThrough":null,
+"weekend":[6,7],
+"coverage":{"counts":{"rule_derived":8,"uncertain":6,"verified":0},"makeupWorkdays":"unknown","national":"rule_derived","notes":"Rule-derived from python-holidays; not checked against a year-specific official publication.","regional":"none","status":"rules"},
+"license":"CC-BY-4.0",
+"attribution":"Holiday rules from python-holidays 0.105 (Copyright (c) Vacanza Team and individual contributors; MIT License).",
+"contentHash":"sha256:2cdff728331a12b861d4bcd134797a30692baa0e4310878ae6c348d6cbc44d43",
+"dates":[
+{"date":"2027-01-01","kind":"public","key":"new_years_day","names":{"en":"New Year's Day","th":"วันปีใหม่สากล","vi":"Tết Dương lịch"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-02-04","kind":"substitute","key":"29_of_lunar_new_year","names":{"en":"29 of Lunar New Year","th":"วันที่ 29 เดือน 12 ตามปฏิทินจันทรคติ","vi":"29 Tết"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2027-02-05","kind":"public","key":"lunar_new_years_eve","names":{"en":"Lunar New Year's Eve","th":"วันก่อนวันตรุษเต๊ต","vi":"Giao thừa Tết Nguyên Đán"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-02-06","kind":"public","key":"lunar_new_year","names":{"en":"Lunar New Year","th":"วันตรุษเต๊ต","vi":"Tết Nguyên Đán"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-02-07","kind":"public","key":"second_day_of_lunar_new_year","names":{"en":"Second Day of Lunar New Year","th":"วันตรุษเต๊ตวันที่สอง","vi":"Mùng hai Tết Nguyên Đán"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-02-08","kind":"public","key":"third_day_of_lunar_new_year","names":{"en":"Third Day of Lunar New Year","th":"วันตรุษเต๊ตวันที่สาม","vi":"Mùng ba Tết Nguyên Đán"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2027-02-09","kind":"public","key":"fourth_day_of_lunar_new_year","names":{"en":"Fourth Day of Lunar New Year","th":"วันตรุษเต๊ตวันที่สี่","vi":"Mùng bốn Tết Nguyên Đán"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2027-02-10","kind":"substitute","key":"fifth_day_of_lunar_new_year","names":{"en":"Fifth Day of Lunar New Year","th":"วันตรุษเต๊ตวันที่ห้า","vi":"Mùng năm Tết Nguyên Đán"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]},
+{"date":"2027-04-16","kind":"public","key":"hung_kings_commemoration_day","names":{"en":"Hung Kings' Commemoration Day","th":"วันสักการะบูชาบรรพกษัตริย์หุ่ง","vi":"Ngày Giỗ Tổ Hùng Vương"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-04-30","kind":"public","key":"liberation_day_reunification_day","names":{"en":"Liberation Day/Reunification Day","th":"วันปลดปล่อยภาคใต้เพื่อรวมชาติ","vi":"Ngày Chiến thắng"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-01","kind":"public","key":"international_labor_day","names":{"en":"International Labor Day","th":"วันแรงงานสากล","vi":"Ngày Quốc tế Lao động"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-05-03","kind":"substitute","key":"international_labor_day","names":{"en":"International Labor Day (observed)","th":"ชดเชยวันแรงงานสากล","vi":"Ngày Quốc tế Lao động (nghỉ bù)"},"source":"python-holidays","confidence":"uncertain","observes":"2027-05-01","tags":["engine_disagreement"]},
+{"date":"2027-09-02","kind":"public","key":"national_day","names":{"en":"National Day","th":"วันชาติเวียตนาม","vi":"Quốc khánh"},"source":"python-holidays","confidence":"rule_derived"},
+{"date":"2027-09-03","kind":"public","key":"national_day","names":{"en":"National Day","th":"วันชาติเวียตนาม","vi":"Quốc khánh"},"source":"python-holidays","confidence":"uncertain","tags":["engine_disagreement"]}
+],
+"sources":[
+{"id":"python-holidays","license":"MIT-python-holidays","publisher":"Vacanza Team (github.com/vacanza/holidays)","retrieved":null,"sha256":null,"title":"python-holidays 0.105 rule engine","url":"https://pypi.org/project/holidays/0.105/"}
+]
+}
